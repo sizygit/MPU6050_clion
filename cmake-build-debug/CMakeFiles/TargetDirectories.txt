@@ -1,0 +1,3 @@
+/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir

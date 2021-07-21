@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MPU6050_clion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPU6050_clion.elf">
+				<Option output="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/MPU6050_clion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPU6050_clion.elf"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPU6050_clion.elf/fast">
+				<Option output="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/MPU6050_clion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050"/>
+					<Add directory="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/arm-none-eabi"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include/c++/7.2.1/backward"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/include"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/include-fixed"/>
+					<Add directory="/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPU6050_clion.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/dma.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/gpio.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/main.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/stm32f1xx_it.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Inc/usart.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/dma.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/gpio.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/main.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/stm32f1xx_it.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/syscalls.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/sysmem.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/system_stm32f1xx.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/usart.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/dmpKey.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/dmpmap.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpu6050.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpu6050.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/STM32F103C8TX_FLASH.ld">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
