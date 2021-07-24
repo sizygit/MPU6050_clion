@@ -15,10 +15,6 @@
 #define SDA_read      GPIOB->IDR  & GPIO_PIN_7	                    /* GPIO_ReadInputDataBit(GPIOB , GPIO_Pin_7) */
 
 
-//IO操作函数	 
-#define MPU_IIC_SCL    PBout(10) 		//SCL
-#define MPU_IIC_SDA    PBout(11) 		//SDA	 
-#define MPU_READ_SDA   PBin(11) 		//输入SDA 
 
 //IIC所有操作函数
 void MPU_IIC_Delay(void);				//MPU IIC延时函数

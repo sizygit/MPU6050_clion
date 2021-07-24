@@ -214,6 +214,7 @@ uint8_t MPU_Write_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 //buf:读取到的数据存储区
 //返回值:0,正常
 //    其他,错误代码
+/************* Burst Read Sequence Have Question So Take Single-Byte Read Sequence in many times*****/
 uint8_t MPU_Read_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 { 
  	/*MPU_IIC_Start();

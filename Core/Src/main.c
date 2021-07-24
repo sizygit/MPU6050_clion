@@ -117,7 +117,7 @@ int main(void)
     /* USER CODE END WHILE */
 
       //HAL_UART_Transmit_DMA(&huart1,&sendbuff,sizeof (sendbuff));
-      //while( mpu_dmp_get_data(&pitch,&roll,&yaw) != 0 ) {HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));}
+      while( mpu_dmp_get_data(&pitch,&roll,&yaw) != 0 ) {HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));}
           temperature = MPU_Get_Temperature();    //得到温度值
 
 
