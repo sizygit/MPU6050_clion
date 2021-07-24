@@ -119,7 +119,7 @@ uint8_t MPU_Set_Rate(u16 rate)
 	data=MPU_Write_Byte(MPU_SAMPLE_RATE_REG,data);	//设置数字低通滤波器
  	return MPU_Set_LPF(rate/2);	//自动设置LPF为采样率的一半
 }
-
+int8_t anyone;
 //得到温度值
 //返回值:温度值(扩大了100倍)
 short MPU_Get_Temperature(void)
@@ -154,7 +154,7 @@ uint8_t MPU_Get_Gyroscope(short *gx,short *gy,short *gz)
 //    其他,错误代码
 uint8_t MPU_Get_Accelerometer(short *ax,short *ay,short *az)
 {
-    uint8_t buf[6],res;  
+    uint8_t buf[6],res;
 	res=MPU_Read_Len(MPU_ADDR,MPU_ACCEL_XOUTH_REG,6,buf);
 	if(res==0)
 	{
@@ -163,6 +163,18 @@ uint8_t MPU_Get_Accelerometer(short *ax,short *ay,short *az)
 		*az=((u16)buf[4]<<8)|buf[5];
 	} 	
     return res;;
+    /*uint8_t buf1[2],res,buf2[2],buf3[3];
+    buf1[0]= MPU_Read_Byte(MPU_ACCEL_XOUTH_REG);
+    buf1[1]= MPU_Read_Byte(MPU_ACCEL_XOUTL_REG);
+    buf2[0]= MPU_Read_Byte(MPU_ACCEL_YOUTH_REG);
+    buf2[1]= MPU_Read_Byte(MPU_ACCEL_YOUTL_REG);
+    buf3[0]= MPU_Read_Byte(MPU_ACCEL_ZOUTH_REG);
+    buf3[1]= MPU_Read_Byte(MPU_ACCEL_ZOUTL_REG);
+    *ax=((u16)buf1[0]<<8)|buf1[1];
+    *ay=((u16)buf2[0]<<8)|buf2[1];
+    *az=((u16)buf3[0]<<8)|buf3[1];
+    return 0;*/
+
 }
 //IIC连续写
 //addr:器件地址 
@@ -173,7 +185,7 @@ uint8_t MPU_Get_Accelerometer(short *ax,short *ay,short *az)
 //    其他,错误代码
 uint8_t MPU_Write_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 {
-	uint8_t i; 
+	uint8_t i;
     MPU_IIC_Start(); 
 	MPU_IIC_Send_Byte((addr<<1)|0);//发送器件地址+写命令	
 	if(MPU_IIC_Wait_Ack())	//等待应答
@@ -193,7 +205,7 @@ uint8_t MPU_Write_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 		}		
 	}    
     MPU_IIC_Stop();	 
-	return 0;	
+	return 0;
 } 
 //IIC连续读
 //addr:器件地址
@@ -204,7 +216,7 @@ uint8_t MPU_Write_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 //    其他,错误代码
 uint8_t MPU_Read_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 { 
- 	MPU_IIC_Start(); 
+ 	/*MPU_IIC_Start();
 	MPU_IIC_Send_Byte((addr<<1)|0);//发送器件地址+写命令	
 	if(MPU_IIC_Wait_Ack())	//等待应答
 	{
@@ -224,7 +236,20 @@ uint8_t MPU_Read_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf)
 		buf++; 
 	}    
     MPU_IIC_Stop();	//产生一个停止条件 
-	return 0;	
+	return 0;	*/
+    for (;  ; ) {
+        if (len == 1){
+            *buf = MPU_Read_Byte(reg);
+            return 0;
+        }
+        else
+        {
+            *buf = MPU_Read_Byte(reg);
+            len --;
+            buf ++;
+            reg ++;
+        }
+    }
 }
 //IIC写一个字节 
 //reg:寄存器地址

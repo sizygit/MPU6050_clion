@@ -50,10 +50,12 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpu6050.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj"
   "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj"
+  "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.c" "/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

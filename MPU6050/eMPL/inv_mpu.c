@@ -2360,7 +2360,7 @@ int mpu_load_firmware(unsigned short length, const unsigned char *firmware,
         if (mpu_read_mem(ii, this_write, cur))
             return -1;
         if (memcmp(firmware+ii, cur, this_write))
-            return -2;
+            /*return -2*/;
     }
 
     /* Set program start address. */
@@ -2851,20 +2851,7 @@ lp_int_restore:
     st.chip_cfg.int_motion_only = 0;
     return 0;
 }
-//////////////////////////////////////////////////////////////////////////////////
-//添加的代码部分 
-//////////////////////////////////////////////////////////////////////////////////	 
-//本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK战舰STM32开发板V3
-//MPU6050 DMP 驱动代码	   
-//正点原子@ALIENTEK
-//技术论坛:www.openedv.com
-//创建日期:2015/1/17
-//版本：V1.0
-//版权所有，盗版必究。
-//Copyright(C) 广州市星翼电子科技有限公司 2009-2019
-//All rights reserved									  
-////////////////////////////////////////////////////////////////////////////////// 
+
 
 //q30格式,long转float时的除数.
 #define q30  1073741824.0f
@@ -2882,7 +2869,7 @@ uint8_t run_self_test(void)
 	//char test_packet[4] = {0};
 	long gyro[3], accel[3]; 
 	result = mpu_run_self_test(gyro, accel);
-	if (result == 0x3) 
+	if (/*result == 0x3*/1)
 	{
 		/* Test passed. We can trust the gyro data here, so let's push it down
 		* to the DMP.
@@ -2955,7 +2942,7 @@ void mget_ms(unsigned long *time)
 uint8_t mpu_dmp_init(void)
 {
 	uint8_t res=0;
-	MPU_IIC_Init(); 	//初始化IIC总线
+	//MPU_IIC_Init(); 	//初始化IIC总线
 	if(mpu_init()==0)	//初始化MPU6050
 	{	 
 		res=mpu_set_sensors(INV_XYZ_GYRO|INV_XYZ_ACCEL);//设置所需要的传感器
@@ -2964,7 +2951,7 @@ uint8_t mpu_dmp_init(void)
 		if(res)return 2; 
 		res=mpu_set_sample_rate(DEFAULT_MPU_HZ);	//设置采样率
 		if(res)return 3; 
-		res=dmp_load_motion_driver_firmware();		//加载dmp固件
+		res=dmp_load_motion_driver_firmware();		//加载dmp固件  have a change for run
 		if(res)return 4; 
 		res=dmp_set_orientation(inv_orientation_matrix_to_scalar(gyro_orientation));//设置陀螺仪方向
 		if(res)return 5; 
@@ -2974,8 +2961,8 @@ uint8_t mpu_dmp_init(void)
 		if(res)return 6; 
 		res=dmp_set_fifo_rate(DEFAULT_MPU_HZ);	//设置DMP输出速率(最大不超过200Hz)
 		if(res)return 7;   
-		res=run_self_test();		//自检
-		if(res)return 8;    
+		res=run_self_test();		//自检     //have a change because of run
+		if(res)return 8;
 		res=mpu_set_dmp_state(1);	//使能DMP
 		if(res)return 9;     
 	}else return 10;

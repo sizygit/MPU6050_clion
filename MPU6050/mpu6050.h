@@ -1,18 +1,7 @@
 #ifndef __MPU6050_H
 #define __MPU6050_H
 #include "mpuiic.h"   												  	  
-//////////////////////////////////////////////////////////////////////////////////	 
-//本程序只供学习使用，未经作者许可，不得用于其它任何用途
-//ALIENTEK战舰STM32开发板V3
-//MPU6050 驱动代码	   
-//正点原子@ALIENTEK
-//技术论坛:www.openedv.com
-//创建日期:2015/1/17
-//版本：V1.0
-//版权所有，盗版必究。
-//Copyright(C) 广州市星翼电子科技有限公司 2009-2019
-//All rights reserved									  
-////////////////////////////////////////////////////////////////////////////////// 
+
  
 //MPU6050 AD0控制脚
 #define MPU_AD0_CTRL			PAout(15)	//控制AD0电平,从而控制MPU地址
@@ -92,8 +81,8 @@
 
 
 ////因为模块AD0默认接GND,所以转为读写地址后,为0XD1和0XD0(如果接VCC,则为0XD3和0XD2)  
-//#define MPU_READ    0XD1
-//#define MPU_WRITE   0XD0
+#define MPU_READ    0XD1
+#define MPU_WRITE   0XD0
 
 uint8_t MPU_Init(void); 								//初始化MPU6050
 uint8_t MPU_Write_Len(uint8_t addr,uint8_t reg,uint8_t len,uint8_t *buf);//IIC连续写

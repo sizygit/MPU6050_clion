@@ -25,7 +25,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "mpuiic.h"
+#include "inv_mpu.h"
+#include "mpu6050.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -56,7 +58,13 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+int8_t problem_init = 20;
+int8_t sendbuff[] = "/n  ";
+float pitch,roll,yaw; 		//欧拉角
+short aacx,aacy,aacz;		//加速度传感器原始数据
+short gyrox,gyroy,gyroz;	//陀螺仪原始数据
+short temp;					//温度
+short temperature;
 /* USER CODE END 0 */
 
 /**
@@ -90,6 +98,15 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+    MPU_Init();
+    HAL_Delay(1000);  //wait for MPU6050
+    while(problem_init) {
+        problem_init = mpu_dmp_init();
+        HAL_UART_Transmit_DMA(&huart1, &problem_init, sizeof(problem_init));
+        checkDevice(MPU_WRITE);
+        HAL_Delay(200);
+        //sendbuff=MPU_Read_Len(,MPU_DEVICE_ID_REG);  // check the MPU6050 ID
+        }
 
   /* USER CODE END 2 */
 
@@ -98,6 +115,16 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+      //HAL_UART_Transmit_DMA(&huart1,&sendbuff,sizeof (sendbuff));
+      //while( mpu_dmp_get_data(&pitch,&roll,&yaw) != 0 ) {HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));}
+          temperature = MPU_Get_Temperature();    //得到温度值
+
+
+          //HAL_UART_Transmit_DMA(&huart1,&temperature,sizeof (temperature));
+          MPU_Get_Accelerometer(&aacx, &aacy, &aacz);    //得到加速度传感器数据
+          MPU_Get_Gyroscope(&gyrox, &gyroy, &gyroz);    //得到陀螺仪数据
+
 
     /* USER CODE BEGIN 3 */
   }

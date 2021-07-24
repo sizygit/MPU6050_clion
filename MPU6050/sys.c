@@ -12,10 +12,6 @@
 //All rights reserved
 //********************************************************************************  
 
-//时钟系统配置函数
-//PLL:选择的倍频数，RCC_PLL_MUL2~RCC_PLL_MUL16
-//返回值:0,成功;1,失败
-
 #ifdef  USE_FULL_ASSERT
 //当编译提示出错的时候此函数用来报告错误的文件和所在行
 //file：指向源文件
@@ -43,10 +39,10 @@ void INTX_ENABLE(void)
 {
 	__ASM volatile("cpsie i");		  
 }
-//设置栈顶地址
+/*//设置栈顶地址
 //addr:栈顶地址
 __asm void MSR_MSP(u32 addr) 
 {
     MSR MSP, r0 			//set Main Stack value
     BX r14
-}
+}*/

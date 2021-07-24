@@ -313,6 +313,12 @@
 		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="MPU6050_clion.elf"/>
 		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
 		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/dmpKey.h">
 			<Option target="MPU6050_clion.elf"/>
 		</Unit>
@@ -341,6 +347,12 @@
 			<Option target="MPU6050_clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.h">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.c">
+			<Option target="MPU6050_clion.elf"/>
+		</Unit>
+		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.h">
 			<Option target="MPU6050_clion.elf"/>
 		</Unit>
 		<Unit filename="/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/STM32F103C8TX_FLASH.ld">

@@ -6,7 +6,7 @@
  //MPU IIC 延时函数
 void MPU_IIC_Delay(void)
 {
-	delay_us(2);
+	delay_us(3);
 }
 
 //初始化IIC
@@ -26,7 +26,7 @@ void MPU_IIC_Init(void)
 
 
     MPU_IIC_Stop();          //保证IIC开始时SDA和SCL引脚都为高电平
-
+    HAL_Delay(50);
     /* I2C1 clock enable */
     //__HAL_RCC_I2C1_CLK_ENABLE();
 }
@@ -140,6 +140,25 @@ uint8_t MPU_IIC_Read_Byte(unsigned char ack)
 
 
 
+
+/*******************************************************************************
+* Function Name  : I2C_ReadByte
+* Description    : 检测设备工作正常并且通讯成功
+* Input          : DeviceAddress: 设备地址
+* Output         : None
+* Return         : 返回为:=1成功,=0失败，并且亮起警示灯
+* Attention	: None
+*******************************************************************************/
+uint8_t checkDevice(uint8_t DeviceAddress){
+    uint8_t haveAck;
+    MPU_IIC_Start();
+    MPU_IIC_Send_Byte(DeviceAddress & 0xFFFE);
+    haveAck = MPU_IIC_Wait_Ack();
+    if(haveAck)HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+    else HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+    MPU_IIC_Stop();
+    return haveAck;
+}
 
 
 

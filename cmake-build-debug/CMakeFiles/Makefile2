@@ -93,12 +93,12 @@ clean: CMakeFiles/MPU6050_clion.elf.dir/clean
 CMakeFiles/MPU6050_clion.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target MPU6050_clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target MPU6050_clion.elf"
 .PHONY : CMakeFiles/MPU6050_clion.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MPU6050_clion.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MPU6050_clion.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/MPU6050_clion.elf.dir/rule

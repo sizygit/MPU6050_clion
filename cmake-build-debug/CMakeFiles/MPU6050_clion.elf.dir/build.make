@@ -380,9 +380,22 @@ CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c -o CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
 
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj: ../MPU6050/delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.c
+
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.c > CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.i
+
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/delay.c -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.s
+
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj: ../MPU6050/eMPL/inv_mpu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.c
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.i: cmake_force
@@ -395,7 +408,7 @@ CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.s: cmake_force
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj: ../MPU6050/eMPL/inv_mpu_dmp_motion_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.i: cmake_force
@@ -408,7 +421,7 @@ CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.s: cma
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj: ../MPU6050/mpu6050.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpu6050.c
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.i: cmake_force
@@ -421,7 +434,7 @@ CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.s: cmake_force
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj: ../MPU6050/mpuiic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.c
 
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.i: cmake_force
@@ -431,6 +444,19 @@ CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.i: cmake_force
 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.s"
 	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/mpuiic.c -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.s
+
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj: CMakeFiles/MPU6050_clion.elf.dir/flags.make
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj: ../MPU6050/sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj -c /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.c
+
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.i"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.c > CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.i
+
+CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.s"
+	/home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/sys.c -o CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.s
 
 # Object files for target MPU6050_clion.elf
 MPU6050_clion_elf_OBJECTS = \
@@ -458,10 +484,12 @@ MPU6050_clion_elf_OBJECTS = \
 "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
 "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
 "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" \
+"CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj" \
 "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj" \
 "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj" \
 "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj" \
-"CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj"
+"CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj" \
+"CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj"
 
 # External object files for target MPU6050_clion.elf
 MPU6050_clion_elf_EXTERNAL_OBJECTS =
@@ -490,13 +518,15 @@ MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/build.make
 MPU6050_clion.elf: CMakeFiles/MPU6050_clion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable MPU6050_clion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking C executable MPU6050_clion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MPU6050_clion.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/MPU6050_clion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/cmake-build-debug/MPU6050_clion.bin"

@@ -23,10 +23,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+  "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj"
   "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj"
+  "CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj"
   "MPU6050_clion.elf"
   "MPU6050_clion.elf.pdb"
 )

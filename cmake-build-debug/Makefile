@@ -772,6 +772,33 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
 
+MPU6050/delay.obj: MPU6050/delay.c.obj
+
+.PHONY : MPU6050/delay.obj
+
+# target to build an object file
+MPU6050/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+.PHONY : MPU6050/delay.c.obj
+
+MPU6050/delay.i: MPU6050/delay.c.i
+
+.PHONY : MPU6050/delay.i
+
+# target to preprocess a source file
+MPU6050/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.i
+.PHONY : MPU6050/delay.c.i
+
+MPU6050/delay.s: MPU6050/delay.c.s
+
+.PHONY : MPU6050/delay.s
+
+# target to generate assembly for a file
+MPU6050/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.s
+.PHONY : MPU6050/delay.c.s
+
 MPU6050/eMPL/inv_mpu.obj: MPU6050/eMPL/inv_mpu.c.obj
 
 .PHONY : MPU6050/eMPL/inv_mpu.obj
@@ -880,6 +907,33 @@ MPU6050/mpuiic.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.s
 .PHONY : MPU6050/mpuiic.c.s
 
+MPU6050/sys.obj: MPU6050/sys.c.obj
+
+.PHONY : MPU6050/sys.obj
+
+# target to build an object file
+MPU6050/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.obj
+.PHONY : MPU6050/sys.c.obj
+
+MPU6050/sys.i: MPU6050/sys.c.i
+
+.PHONY : MPU6050/sys.i
+
+# target to preprocess a source file
+MPU6050/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.i
+.PHONY : MPU6050/sys.c.i
+
+MPU6050/sys.s: MPU6050/sys.c.s
+
+.PHONY : MPU6050/sys.s
+
+# target to generate assembly for a file
+MPU6050/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPU6050_clion.elf.dir/build.make CMakeFiles/MPU6050_clion.elf.dir/MPU6050/sys.c.s
+.PHONY : MPU6050/sys.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -959,6 +1013,9 @@ help:
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i"
 	@echo "... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s"
+	@echo "... MPU6050/delay.obj"
+	@echo "... MPU6050/delay.i"
+	@echo "... MPU6050/delay.s"
 	@echo "... MPU6050/eMPL/inv_mpu.obj"
 	@echo "... MPU6050/eMPL/inv_mpu.i"
 	@echo "... MPU6050/eMPL/inv_mpu.s"
@@ -971,6 +1028,9 @@ help:
 	@echo "... MPU6050/mpuiic.obj"
 	@echo "... MPU6050/mpuiic.i"
 	@echo "... MPU6050/mpuiic.s"
+	@echo "... MPU6050/sys.obj"
+	@echo "... MPU6050/sys.i"
+	@echo "... MPU6050/sys.s"
 .PHONY : help
 
 
