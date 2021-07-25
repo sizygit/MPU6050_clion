@@ -195,12 +195,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .bss.pitch     0x0000000000000000        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .bss.roll      0x0000000000000000        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
  .bss.temp      0x0000000000000000        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .bss.yaw       0x0000000000000000        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
  .data.sendbuff
-                0x0000000000000000        0x5 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000000000000        0x1 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -721,8 +718,6 @@ Discarded input sections
                 0x0000000000000000       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.mpu_read_fifo
                 0x0000000000000000      0x1fc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .text.mpu_read_fifo_stream
-                0x0000000000000000       0xc0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.mpu_set_int_level
                 0x0000000000000000       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.mpu_get_dmp_state
@@ -735,16 +730,11 @@ Discarded input sections
                 0x0000000000000000        0x6 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.mpu_lp_motion_interrupt
                 0x0000000000000000      0x1ec CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .text.mget_ms  0x0000000000000000        0x2 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .text.mpu_dmp_get_data
-                0x0000000000000000      0x1c8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .rodata.mpu_reg_dump.str1.4
                 0x0000000000000000        0xd CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .text.decode_gesture
-                0x0000000000000000       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_get_fifo_rate
                 0x0000000000000000       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_get_pedometer_step_count
@@ -759,8 +749,6 @@ Discarded input sections
                 0x0000000000000000       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_set_interrupt_mode
                 0x0000000000000000       0x5c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .text.dmp_read_fifo
-                0x0000000000000000      0x1dc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_register_tap_cb
                 0x0000000000000000        0xc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_register_android_orient_cb
@@ -768,6 +756,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .text.MPU_Read_Fifocount
+                0x0000000000000000       0x12 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .bss.anyone    0x0000000000000000        0x1 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
@@ -1079,79 +1069,59 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
- .text.asin     0x0000000000000000       0xa4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
- .rodata.asin.str1.4
-                0x0000000000000000        0x9 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
  .debug_frame   0x0000000000000000       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
- .text.atan2    0x0000000000000000        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
  .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
- .text.__ieee754_asin
-                0x0000000000000000      0x474 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
  .debug_frame   0x0000000000000000       0x54 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
- .text.__ieee754_atan2
-                0x0000000000000000      0x1b4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
  .debug_frame   0x0000000000000000       0x48 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
- .text.__ieee754_sqrt
-                0x0000000000000000      0x184 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
  .debug_frame   0x0000000000000000       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
- .text.atan     0x0000000000000000      0x31c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
- .rodata.atanhi
-                0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
- .rodata.atanlo
-                0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
  .debug_frame   0x0000000000000000       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
- .text.fabs     0x0000000000000000        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
- .data.__fdlib_version
-                0x0000000000000000        0x1 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
- .text.matherr  0x0000000000000000        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
  .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
  .text          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
  .data          0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
  .bss           0x0000000000000000        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
- .text.nan      0x0000000000000000        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
  .debug_frame   0x0000000000000000       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
  .ARM.attributes
                 0x0000000000000000       0x2d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
@@ -1216,7 +1186,7 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x0000000008000110     0x9a84
+.text           0x0000000008000110     0xaaf4
                 0x0000000008000110                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000110       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
@@ -1332,779 +1302,820 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x00000000080016a0       0x62 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
                 0x00000000080016a0                SystemClock_Config
  *fill*         0x0000000008001702        0x2 
- .text.main     0x0000000008001704       0x8c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+ .text.main     0x0000000008001704       0xa8 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
                 0x0000000008001704                main
  .text.HAL_MspInit
-                0x0000000008001790       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x0000000008001790                HAL_MspInit
+                0x00000000080017ac       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000000080017ac                HAL_MspInit
  .text.NMI_Handler
-                0x00000000080017d4        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017d4                NMI_Handler
+                0x00000000080017f0        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017f0                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080017d6        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017d6                HardFault_Handler
+                0x00000000080017f2        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017f2                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080017d8        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017d8                MemManage_Handler
+                0x00000000080017f4        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017f4                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080017da        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017da                BusFault_Handler
+                0x00000000080017f6        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017f6                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080017dc        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017dc                UsageFault_Handler
+                0x00000000080017f8        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017f8                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080017de        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017de                SVC_Handler
+                0x00000000080017fa        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017fa                SVC_Handler
  .text.DebugMon_Handler
-                0x00000000080017e0        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017e0                DebugMon_Handler
+                0x00000000080017fc        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017fc                DebugMon_Handler
  .text.PendSV_Handler
-                0x00000000080017e2        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017e2                PendSV_Handler
+                0x00000000080017fe        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080017fe                PendSV_Handler
  .text.SysTick_Handler
-                0x00000000080017e4        0x8 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017e4                SysTick_Handler
+                0x0000000008001800        0x8 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0000000008001800                SysTick_Handler
  .text.DMA1_Channel4_IRQHandler
-                0x00000000080017ec       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017ec                DMA1_Channel4_IRQHandler
+                0x0000000008001808       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0000000008001808                DMA1_Channel4_IRQHandler
  .text.USART1_IRQHandler
-                0x00000000080017fc       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080017fc                USART1_IRQHandler
- .text._read    0x000000000800180c       0x1c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x000000000800180c                _read
- .text._write   0x0000000008001828       0x1c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x0000000008001828                _write
- .text._close   0x0000000008001844        0x6 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x0000000008001844                _close
- .text._fstat   0x000000000800184a        0xa CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x000000000800184a                _fstat
- .text._isatty  0x0000000008001854        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x0000000008001854                _isatty
- .text._lseek   0x0000000008001858        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
-                0x0000000008001858                _lseek
- .text._sbrk    0x000000000800185c       0x48 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
-                0x000000000800185c                _sbrk
+                0x0000000008001818       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0000000008001818                USART1_IRQHandler
+ .text._read    0x0000000008001828       0x1c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001828                _read
+ .text._write   0x0000000008001844       0x1c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001844                _write
+ .text._close   0x0000000008001860        0x6 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001860                _close
+ .text._fstat   0x0000000008001866        0xa CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001866                _fstat
+ .text._isatty  0x0000000008001870        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001870                _isatty
+ .text._lseek   0x0000000008001874        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+                0x0000000008001874                _lseek
+ .text._sbrk    0x0000000008001878       0x48 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+                0x0000000008001878                _sbrk
  .text.SystemInit
-                0x00000000080018a4        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x00000000080018a4                SystemInit
- *fill*         0x00000000080018a6        0x2 
+                0x00000000080018c0        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x00000000080018c0                SystemInit
+ *fill*         0x00000000080018c2        0x2 
  .text.MX_USART1_UART_Init
-                0x00000000080018a8       0x34 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
-                0x00000000080018a8                MX_USART1_UART_Init
+                0x00000000080018c4       0x34 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+                0x00000000080018c4                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x00000000080018dc       0xc0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
-                0x00000000080018dc                HAL_UART_MspInit
+                0x00000000080018f8       0xc0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+                0x00000000080018f8                HAL_UART_MspInit
  .text.Reset_Handler
-                0x000000000800199c       0x48 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x000000000800199c                Reset_Handler
+                0x00000000080019b8       0x48 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x00000000080019b8                Reset_Handler
  .text.Default_Handler
-                0x00000000080019e4        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
-                0x00000000080019e4                RTC_Alarm_IRQHandler
-                0x00000000080019e4                EXTI2_IRQHandler
-                0x00000000080019e4                TIM1_CC_IRQHandler
-                0x00000000080019e4                PVD_IRQHandler
-                0x00000000080019e4                EXTI3_IRQHandler
-                0x00000000080019e4                EXTI0_IRQHandler
-                0x00000000080019e4                I2C2_EV_IRQHandler
-                0x00000000080019e4                ADC1_2_IRQHandler
-                0x00000000080019e4                SPI1_IRQHandler
-                0x00000000080019e4                TAMPER_IRQHandler
-                0x00000000080019e4                USART3_IRQHandler
-                0x00000000080019e4                RTC_IRQHandler
-                0x00000000080019e4                DMA1_Channel7_IRQHandler
-                0x00000000080019e4                CAN1_RX1_IRQHandler
-                0x00000000080019e4                TIM4_IRQHandler
-                0x00000000080019e4                I2C1_EV_IRQHandler
-                0x00000000080019e4                DMA1_Channel6_IRQHandler
-                0x00000000080019e4                TIM3_IRQHandler
-                0x00000000080019e4                RCC_IRQHandler
-                0x00000000080019e4                TIM1_TRG_COM_IRQHandler
-                0x00000000080019e4                DMA1_Channel1_IRQHandler
-                0x00000000080019e4                Default_Handler
-                0x00000000080019e4                EXTI15_10_IRQHandler
-                0x00000000080019e4                EXTI9_5_IRQHandler
-                0x00000000080019e4                SPI2_IRQHandler
-                0x00000000080019e4                DMA1_Channel5_IRQHandler
-                0x00000000080019e4                EXTI4_IRQHandler
-                0x00000000080019e4                USB_LP_CAN1_RX0_IRQHandler
-                0x00000000080019e4                USB_HP_CAN1_TX_IRQHandler
-                0x00000000080019e4                DMA1_Channel3_IRQHandler
-                0x00000000080019e4                TIM1_UP_IRQHandler
-                0x00000000080019e4                WWDG_IRQHandler
-                0x00000000080019e4                TIM2_IRQHandler
-                0x00000000080019e4                TIM1_BRK_IRQHandler
-                0x00000000080019e4                EXTI1_IRQHandler
-                0x00000000080019e4                USART2_IRQHandler
-                0x00000000080019e4                I2C2_ER_IRQHandler
-                0x00000000080019e4                DMA1_Channel2_IRQHandler
-                0x00000000080019e4                CAN1_SCE_IRQHandler
-                0x00000000080019e4                FLASH_IRQHandler
-                0x00000000080019e4                I2C1_ER_IRQHandler
-                0x00000000080019e4                USBWakeUp_IRQHandler
- *fill*         0x00000000080019e6        0x2 
+                0x0000000008001a00        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+                0x0000000008001a00                RTC_Alarm_IRQHandler
+                0x0000000008001a00                EXTI2_IRQHandler
+                0x0000000008001a00                TIM1_CC_IRQHandler
+                0x0000000008001a00                PVD_IRQHandler
+                0x0000000008001a00                EXTI3_IRQHandler
+                0x0000000008001a00                EXTI0_IRQHandler
+                0x0000000008001a00                I2C2_EV_IRQHandler
+                0x0000000008001a00                ADC1_2_IRQHandler
+                0x0000000008001a00                SPI1_IRQHandler
+                0x0000000008001a00                TAMPER_IRQHandler
+                0x0000000008001a00                USART3_IRQHandler
+                0x0000000008001a00                RTC_IRQHandler
+                0x0000000008001a00                DMA1_Channel7_IRQHandler
+                0x0000000008001a00                CAN1_RX1_IRQHandler
+                0x0000000008001a00                TIM4_IRQHandler
+                0x0000000008001a00                I2C1_EV_IRQHandler
+                0x0000000008001a00                DMA1_Channel6_IRQHandler
+                0x0000000008001a00                TIM3_IRQHandler
+                0x0000000008001a00                RCC_IRQHandler
+                0x0000000008001a00                TIM1_TRG_COM_IRQHandler
+                0x0000000008001a00                DMA1_Channel1_IRQHandler
+                0x0000000008001a00                Default_Handler
+                0x0000000008001a00                EXTI15_10_IRQHandler
+                0x0000000008001a00                EXTI9_5_IRQHandler
+                0x0000000008001a00                SPI2_IRQHandler
+                0x0000000008001a00                DMA1_Channel5_IRQHandler
+                0x0000000008001a00                EXTI4_IRQHandler
+                0x0000000008001a00                USB_LP_CAN1_RX0_IRQHandler
+                0x0000000008001a00                USB_HP_CAN1_TX_IRQHandler
+                0x0000000008001a00                DMA1_Channel3_IRQHandler
+                0x0000000008001a00                TIM1_UP_IRQHandler
+                0x0000000008001a00                WWDG_IRQHandler
+                0x0000000008001a00                TIM2_IRQHandler
+                0x0000000008001a00                TIM1_BRK_IRQHandler
+                0x0000000008001a00                EXTI1_IRQHandler
+                0x0000000008001a00                USART2_IRQHandler
+                0x0000000008001a00                I2C2_ER_IRQHandler
+                0x0000000008001a00                DMA1_Channel2_IRQHandler
+                0x0000000008001a00                CAN1_SCE_IRQHandler
+                0x0000000008001a00                FLASH_IRQHandler
+                0x0000000008001a00                I2C1_ER_IRQHandler
+                0x0000000008001a00                USBWakeUp_IRQHandler
+ *fill*         0x0000000008001a02        0x2 
  .text.HAL_InitTick
-                0x00000000080019e8       0x4c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x00000000080019e8                HAL_InitTick
+                0x0000000008001a04       0x4c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008001a04                HAL_InitTick
  .text.HAL_Init
-                0x0000000008001a34       0x24 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008001a34                HAL_Init
+                0x0000000008001a50       0x24 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008001a50                HAL_Init
  .text.HAL_IncTick
-                0x0000000008001a58       0x18 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008001a58                HAL_IncTick
+                0x0000000008001a74       0x18 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008001a74                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008001a70        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008001a70                HAL_GetTick
+                0x0000000008001a8c        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008001a8c                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008001a7c       0x28 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008001a7c                HAL_Delay
+                0x0000000008001a98       0x28 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008001a98                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008001aa4       0x24 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008001aa4                HAL_NVIC_SetPriorityGrouping
+                0x0000000008001ac0       0x24 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008001ac0                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008001ac8       0x68 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008001ac8                HAL_NVIC_SetPriority
+                0x0000000008001ae4       0x68 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008001ae4                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008001b30       0x1c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008001b30                HAL_NVIC_EnableIRQ
+                0x0000000008001b4c       0x1c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008001b4c                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008001b4c       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008001b4c                HAL_SYSTICK_Config
+                0x0000000008001b68       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008001b68                HAL_SYSTICK_Config
  .text.DMA_SetConfig
-                0x0000000008001b78       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001b94       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .text.HAL_DMA_Init
-                0x0000000008001ba4       0x6c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0000000008001ba4                HAL_DMA_Init
+                0x0000000008001bc0       0x6c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001bc0                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0000000008001c10       0x74 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0000000008001c10                HAL_DMA_Start_IT
+                0x0000000008001c2c       0x74 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001c2c                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort
-                0x0000000008001c84       0x44 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0000000008001c84                HAL_DMA_Abort
+                0x0000000008001ca0       0x44 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001ca0                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x0000000008001cc8       0x98 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0000000008001cc8                HAL_DMA_Abort_IT
+                0x0000000008001ce4       0x98 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001ce4                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x0000000008001d60      0x144 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0000000008001d60                HAL_DMA_IRQHandler
+                0x0000000008001d7c      0x144 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0000000008001d7c                HAL_DMA_IRQHandler
  .text.HAL_GPIO_Init
-                0x0000000008001ea4      0x1d8 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008001ea4                HAL_GPIO_Init
+                0x0000000008001ec0      0x1d8 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008001ec0                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x000000000800207c        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x000000000800207c                HAL_GPIO_WritePin
+                0x0000000008002098        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008002098                HAL_GPIO_WritePin
  .text.RCC_Delay
-                0x0000000008002088       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080020a4       0x2c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x00000000080020b4      0x410 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080020b4                HAL_RCC_OscConfig
+                0x00000000080020d0      0x410 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080020d0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x00000000080024c4       0x70 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080024c4                HAL_RCC_GetSysClockFreq
+                0x00000000080024e0       0x70 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080024e0                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008002534      0x168 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0000000008002534                HAL_RCC_ClockConfig
+                0x0000000008002550      0x168 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008002550                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x000000000800269c        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x000000000800269c                HAL_RCC_GetHCLKFreq
+                0x00000000080026b8        0xc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080026b8                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x00000000080026a8       0x20 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080026a8                HAL_RCC_GetPCLK1Freq
+                0x00000000080026c4       0x20 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080026c4                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x00000000080026c8       0x20 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x00000000080026c8                HAL_RCC_GetPCLK2Freq
+                0x00000000080026e4       0x20 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000000080026e4                HAL_RCC_GetPCLK2Freq
  .text.UART_EndTxTransfer
-                0x00000000080026e8       0x12 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002704       0x12 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndRxTransfer
-                0x00000000080026fa       0x32 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002716       0x32 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x000000000800272c       0x62 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- *fill*         0x000000000800278e        0x2 
+                0x0000000008002748       0x62 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ *fill*         0x00000000080027aa        0x2 
  .text.UART_SetConfig
-                0x0000000008002790       0x90 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000000080027ac       0x90 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x0000000008002820       0x5e CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002820                HAL_UART_Init
- *fill*         0x000000000800287e        0x2 
+                0x000000000800283c       0x5e CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000000000800283c                HAL_UART_Init
+ *fill*         0x000000000800289a        0x2 
  .text.HAL_UART_Transmit_DMA
-                0x0000000008002880       0x8c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002880                HAL_UART_Transmit_DMA
+                0x000000000800289c       0x8c CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000000000800289c                HAL_UART_Transmit_DMA
  .text.HAL_UART_TxCpltCallback
-                0x000000000800290c        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x000000000800290c                HAL_UART_TxCpltCallback
+                0x0000000008002928        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002928                HAL_UART_TxCpltCallback
  .text.UART_DMATransmitCplt
-                0x000000000800290e       0x30 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000000000800292a       0x30 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x000000000800293e       0x1a CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000000000800295a       0x1a CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_TxHalfCpltCallback
-                0x0000000008002958        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002958                HAL_UART_TxHalfCpltCallback
+                0x0000000008002974        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002974                HAL_UART_TxHalfCpltCallback
  .text.UART_DMATxHalfCplt
-                0x000000000800295a        0xa CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002976        0xa CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_RxCpltCallback
-                0x0000000008002964        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002964                HAL_UART_RxCpltCallback
+                0x0000000008002980        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002980                HAL_UART_RxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x0000000008002966        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002966                HAL_UART_ErrorCallback
+                0x0000000008002982        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002982                HAL_UART_ErrorCallback
  .text.UART_DMAError
-                0x0000000008002968       0x58 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002984       0x58 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x00000000080029c0       0x10 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000000080029dc       0x10 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x00000000080029d0        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x00000000080029d0                HAL_UARTEx_RxEventCallback
+                0x00000000080029ec        0x2 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000000080029ec                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x00000000080029d2       0xd4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- *fill*         0x0000000008002aa6        0x2 
+                0x00000000080029ee       0xd4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ *fill*         0x0000000008002ac2        0x2 
  .text.HAL_UART_IRQHandler
-                0x0000000008002aa8      0x1f4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0000000008002aa8                HAL_UART_IRQHandler
+                0x0000000008002ac4      0x1f4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000000008002ac4                HAL_UART_IRQHandler
  .text.delay_us
-                0x0000000008002c9c       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
-                0x0000000008002c9c                delay_us
+                0x0000000008002cb8       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+                0x0000000008002cb8                delay_us
  .text.delay_ms
-                0x0000000008002cd8       0x18 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
-                0x0000000008002cd8                delay_ms
+                0x0000000008002cf4       0x18 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+                0x0000000008002cf4                delay_ms
  .text.get_accel_prod_shift
-                0x0000000008002cf0       0xbc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008002d0c       0xbc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.accel_self_test
-                0x0000000008002dac       0xa4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008002dc8       0xa4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.gyro_self_test
-                0x0000000008002e50       0xfc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008002e6c       0xfc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.set_int_enable
-                0x0000000008002f4c       0x98 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008002f68       0x98 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.get_st_biases
-                0x0000000008002fe4      0x448 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003000      0x448 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .text.mpu_reset_fifo
-                0x000000000800342c      0x1f4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x000000000800342c                mpu_reset_fifo
+                0x0000000008003448      0x1f4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003448                mpu_reset_fifo
  .text.mpu_get_gyro_fsr
-                0x0000000008003620       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003620                mpu_get_gyro_fsr
+                0x000000000800363c       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800363c                mpu_get_gyro_fsr
  .text.mpu_set_gyro_fsr
-                0x000000000800365c       0x90 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x000000000800365c                mpu_set_gyro_fsr
+                0x0000000008003678       0x90 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003678                mpu_set_gyro_fsr
  .text.mpu_get_accel_fsr
-                0x00000000080036ec       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080036ec                mpu_get_accel_fsr
+                0x0000000008003708       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003708                mpu_get_accel_fsr
  .text.mpu_set_accel_fsr
-                0x0000000008003730       0x94 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003730                mpu_set_accel_fsr
+                0x000000000800374c       0x94 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800374c                mpu_set_accel_fsr
  .text.mpu_get_lpf
-                0x00000000080037c4       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080037c4                mpu_get_lpf
+                0x00000000080037e0       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080037e0                mpu_get_lpf
  .text.mpu_set_lpf
-                0x0000000008003808       0x94 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003808                mpu_set_lpf
+                0x0000000008003824       0x94 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003824                mpu_set_lpf
  .text.mpu_get_sample_rate
-                0x000000000800389c       0x1c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x000000000800389c                mpu_get_sample_rate
+                0x00000000080038b8       0x1c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080038b8                mpu_get_sample_rate
  .text.mpu_get_gyro_sens
-                0x00000000080038b8       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080038b8                mpu_get_gyro_sens
+                0x00000000080038d4       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080038d4                mpu_get_gyro_sens
  .text.mpu_get_accel_sens
-                0x0000000008003904       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003904                mpu_get_accel_sens
+                0x0000000008003920       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003920                mpu_get_accel_sens
  .text.mpu_get_fifo_config
-                0x0000000008003950       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003950                mpu_get_fifo_config
+                0x000000000800396c       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800396c                mpu_get_fifo_config
  .text.mpu_configure_fifo
-                0x0000000008003960       0x60 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003960                mpu_configure_fifo
+                0x000000000800397c       0x60 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800397c                mpu_configure_fifo
+ .text.mpu_read_fifo_stream
+                0x00000000080039dc       0xc0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080039dc                mpu_read_fifo_stream
  .text.mpu_set_bypass
-                0x00000000080039c0      0x168 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080039c0                mpu_set_bypass
+                0x0000000008003a9c      0x168 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003a9c                mpu_set_bypass
  .text.mpu_set_int_latched
-                0x0000000008003b28       0x74 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003b28                mpu_set_int_latched
+                0x0000000008003c04       0x74 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003c04                mpu_set_int_latched
  .text.mpu_lp_accel_mode
-                0x0000000008003b9c       0xdc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003b9c                mpu_lp_accel_mode
+                0x0000000008003c78       0xdc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003c78                mpu_lp_accel_mode
  .text.mpu_set_sample_rate
-                0x0000000008003c78       0xa0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003c78                mpu_set_sample_rate
+                0x0000000008003d54       0xa0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003d54                mpu_set_sample_rate
  .text.mpu_set_sensors
-                0x0000000008003d18       0xe4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003d18                mpu_set_sensors
+                0x0000000008003df4       0xe4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003df4                mpu_set_sensors
  .text.mpu_init
-                0x0000000008003dfc      0x1b8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003dfc                mpu_init
+                0x0000000008003ed8      0x1b8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008003ed8                mpu_init
  .text.mpu_write_mem
-                0x0000000008003fb4       0x78 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008003fb4                mpu_write_mem
+                0x0000000008004090       0x78 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008004090                mpu_write_mem
  .text.mpu_read_mem
-                0x000000000800402c       0x78 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x000000000800402c                mpu_read_mem
+                0x0000000008004108       0x78 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008004108                mpu_read_mem
  .text.mpu_load_firmware
-                0x00000000080040a4       0x9c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080040a4                mpu_load_firmware
+                0x0000000008004180       0x9c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008004180                mpu_load_firmware
  .text.mpu_set_dmp_state
-                0x0000000008004140       0x90 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008004140                mpu_set_dmp_state
+                0x000000000800421c       0x90 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800421c                mpu_set_dmp_state
  .text.mpu_run_self_test
-                0x00000000080041d0      0x100 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080041d0                mpu_run_self_test
+                0x00000000080042ac      0x100 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080042ac                mpu_run_self_test
  .text.run_self_test
-                0x00000000080042d0       0x80 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080042d0                run_self_test
+                0x00000000080043ac       0x80 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x00000000080043ac                run_self_test
  .text.inv_row_2_scale
-                0x0000000008004350       0x3a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008004350                inv_row_2_scale
+                0x000000000800442c       0x3a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800442c                inv_row_2_scale
  .text.inv_orientation_matrix_to_scalar
-                0x000000000800438a       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x000000000800438a                inv_orientation_matrix_to_scalar
- *fill*         0x00000000080043ae        0x2 
+                0x0000000008004466       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008004466                inv_orientation_matrix_to_scalar
+ .text.mget_ms  0x000000000800448a        0x2 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800448a                mget_ms
  .text.mpu_dmp_init
-                0x00000000080043b0       0x90 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x00000000080043b0                mpu_dmp_init
+                0x000000000800448c       0x94 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800448c                mpu_dmp_init
+ .text.mpu_dmp_get_data
+                0x0000000008004520      0x1c8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x0000000008004520                mpu_dmp_get_data
+ .text.decode_gesture
+                0x00000000080046e8       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .text.dmp_load_motion_driver_firmware
-                0x0000000008004440       0x18 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004440                dmp_load_motion_driver_firmware
+                0x0000000008004724       0x18 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004724                dmp_load_motion_driver_firmware
  .text.dmp_set_orientation
-                0x0000000008004458      0x138 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004458                dmp_set_orientation
+                0x000000000800473c      0x138 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x000000000800473c                dmp_set_orientation
  .text.dmp_set_gyro_bias
-                0x0000000008004590      0x114 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004590                dmp_set_gyro_bias
+                0x0000000008004874      0x114 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004874                dmp_set_gyro_bias
  .text.dmp_set_accel_bias
-                0x00000000080046a4      0x108 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x00000000080046a4                dmp_set_accel_bias
+                0x0000000008004988      0x108 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004988                dmp_set_accel_bias
  .text.dmp_set_fifo_rate
-                0x00000000080047ac       0x6c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x00000000080047ac                dmp_set_fifo_rate
+                0x0000000008004a90       0x6c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004a90                dmp_set_fifo_rate
  .text.dmp_set_tap_thresh
-                0x0000000008004818      0x1a8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004818                dmp_set_tap_thresh
+                0x0000000008004afc      0x1a8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004afc                dmp_set_tap_thresh
  .text.dmp_set_tap_axes
-                0x00000000080049c0       0x4e CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x00000000080049c0                dmp_set_tap_axes
+                0x0000000008004ca4       0x4e CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004ca4                dmp_set_tap_axes
  .text.dmp_set_tap_count
-                0x0000000008004a0e       0x2a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004a0e                dmp_set_tap_count
+                0x0000000008004cf2       0x2a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004cf2                dmp_set_tap_count
  .text.dmp_set_tap_time
-                0x0000000008004a38       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004a38                dmp_set_tap_time
+                0x0000000008004d1c       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004d1c                dmp_set_tap_time
  .text.dmp_set_tap_time_multi
-                0x0000000008004a64       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004a64                dmp_set_tap_time_multi
+                0x0000000008004d48       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004d48                dmp_set_tap_time_multi
  .text.dmp_set_shake_reject_thresh
-                0x0000000008004a90       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004a90                dmp_set_shake_reject_thresh
+                0x0000000008004d74       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004d74                dmp_set_shake_reject_thresh
  .text.dmp_set_shake_reject_time
-                0x0000000008004ad4       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004ad4                dmp_set_shake_reject_time
+                0x0000000008004db8       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004db8                dmp_set_shake_reject_time
  .text.dmp_set_shake_reject_timeout
-                0x0000000008004b00       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004b00                dmp_set_shake_reject_timeout
+                0x0000000008004de4       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004de4                dmp_set_shake_reject_timeout
  .text.dmp_enable_gyro_cal
-                0x0000000008004b2c       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004b2c                dmp_enable_gyro_cal
+                0x0000000008004e10       0x44 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004e10                dmp_enable_gyro_cal
  .text.dmp_enable_lp_quat
-                0x0000000008004b70       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004b70                dmp_enable_lp_quat
+                0x0000000008004e54       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004e54                dmp_enable_lp_quat
  .text.dmp_enable_6x_lp_quat
-                0x0000000008004bac       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004bac                dmp_enable_6x_lp_quat
+                0x0000000008004e90       0x3c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004e90                dmp_enable_6x_lp_quat
  .text.dmp_enable_feature
-                0x0000000008004be8      0x218 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                0x0000000008004be8                dmp_enable_feature
+                0x0000000008004ecc      0x218 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000008004ecc                dmp_enable_feature
+ .text.dmp_read_fifo
+                0x00000000080050e4      0x1f8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x00000000080050e4                dmp_read_fifo
  .text.MPU_Write_Len
-                0x0000000008004e00       0x5e CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004e00                MPU_Write_Len
+                0x00000000080052dc       0x5e CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x00000000080052dc                MPU_Write_Len
  .text.MPU_Write_Byte
-                0x0000000008004e5e       0x46 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004e5e                MPU_Write_Byte
+                0x000000000800533a       0x46 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x000000000800533a                MPU_Write_Byte
  .text.MPU_Set_Gyro_Fsr
-                0x0000000008004ea4       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004ea4                MPU_Set_Gyro_Fsr
+                0x0000000008005380       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005380                MPU_Set_Gyro_Fsr
  .text.MPU_Set_Accel_Fsr
-                0x0000000008004eb4       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004eb4                MPU_Set_Accel_Fsr
+                0x0000000008005390       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005390                MPU_Set_Accel_Fsr
  .text.MPU_Set_LPF
-                0x0000000008004ec4       0x34 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004ec4                MPU_Set_LPF
+                0x00000000080053a0       0x34 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x00000000080053a0                MPU_Set_LPF
  .text.MPU_Set_Rate
-                0x0000000008004ef8       0x32 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004ef8                MPU_Set_Rate
+                0x00000000080053d4       0x32 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x00000000080053d4                MPU_Set_Rate
  .text.MPU_Read_Byte
-                0x0000000008004f2a       0x3a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004f2a                MPU_Read_Byte
+                0x0000000008005406       0x3a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005406                MPU_Read_Byte
  .text.MPU_Init
-                0x0000000008004f64       0x76 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004f64                MPU_Init
+                0x0000000008005440       0x76 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005440                MPU_Init
  .text.MPU_Read_Len
-                0x0000000008004fda       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008004fda                MPU_Read_Len
- *fill*         0x0000000008005006        0x2 
+                0x00000000080054b6       0x2c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x00000000080054b6                MPU_Read_Len
+ *fill*         0x00000000080054e2        0x6 
  .text.MPU_Get_Temperature
-                0x0000000008005008       0x60 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008005008                MPU_Get_Temperature
+                0x00000000080054e8       0x60 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x00000000080054e8                MPU_Get_Temperature
  .text.MPU_Get_Gyroscope
-                0x0000000008005068       0x4a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x0000000008005068                MPU_Get_Gyroscope
+                0x0000000008005548       0x4a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005548                MPU_Get_Gyroscope
  .text.MPU_Get_Accelerometer
-                0x00000000080050b2       0x4a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                0x00000000080050b2                MPU_Get_Accelerometer
+                0x0000000008005592       0x4a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000008005592                MPU_Get_Accelerometer
  .text.MPU_IIC_Delay
-                0x00000000080050fc        0xa CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x00000000080050fc                MPU_IIC_Delay
- *fill*         0x0000000008005106        0x2 
+                0x00000000080055dc        0xa CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x00000000080055dc                MPU_IIC_Delay
+ *fill*         0x00000000080055e6        0x2 
  .text.MPU_IIC_Start
-                0x0000000008005108       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005108                MPU_IIC_Start
+                0x00000000080055e8       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x00000000080055e8                MPU_IIC_Start
  .text.MPU_IIC_Stop
-                0x0000000008005130       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005130                MPU_IIC_Stop
+                0x0000000008005610       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000008005610                MPU_IIC_Stop
  .text.MPU_IIC_Init
-                0x0000000008005158       0x48 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005158                MPU_IIC_Init
+                0x0000000008005638       0x48 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000008005638                MPU_IIC_Init
  .text.MPU_IIC_Wait_Ack
-                0x00000000080051a0       0x40 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x00000000080051a0                MPU_IIC_Wait_Ack
+                0x0000000008005680       0x40 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000008005680                MPU_IIC_Wait_Ack
  .text.MPU_IIC_Ack
-                0x00000000080051e0       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x00000000080051e0                MPU_IIC_Ack
+                0x00000000080056c0       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x00000000080056c0                MPU_IIC_Ack
  .text.MPU_IIC_NAck
-                0x0000000008005204       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005204                MPU_IIC_NAck
+                0x00000000080056e4       0x24 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x00000000080056e4                MPU_IIC_NAck
  .text.MPU_IIC_Send_Byte
-                0x0000000008005228       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005228                MPU_IIC_Send_Byte
+                0x0000000008005708       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000008005708                MPU_IIC_Send_Byte
  .text.MPU_IIC_Read_Byte
-                0x0000000008005274       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x0000000008005274                MPU_IIC_Read_Byte
+                0x0000000008005754       0x4c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000008005754                MPU_IIC_Read_Byte
  .text.checkDevice
-                0x00000000080052c0       0x40 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
-                0x00000000080052c0                checkDevice
- .text.__errno  0x0000000008005300        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
-                0x0000000008005300                __errno
+                0x00000000080057a0       0x40 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x00000000080057a0                checkDevice
+ .text.__errno  0x00000000080057e0        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
+                0x00000000080057e0                __errno
  .text.__libc_init_array
-                0x000000000800530c       0x48 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-init.o)
-                0x000000000800530c                __libc_init_array
- .text.memset   0x0000000008005354       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
-                0x0000000008005354                memset
- .text.printf   0x00000000080053e8       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-printf.o)
-                0x00000000080053e8                printf
- .text._puts_r  0x0000000008005410       0x9c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
-                0x0000000008005410                _puts_r
- .text.puts     0x00000000080054ac       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
-                0x00000000080054ac                puts
- .text.strlen   0x00000000080054bc       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
-                0x00000000080054bc                strlen
+                0x00000000080057ec       0x48 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-init.o)
+                0x00000000080057ec                __libc_init_array
+ .text.memset   0x0000000008005834       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
+                0x0000000008005834                memset
+ .text.printf   0x00000000080058c8       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-printf.o)
+                0x00000000080058c8                printf
+ .text._puts_r  0x00000000080058f0       0x9c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
+                0x00000000080058f0                _puts_r
+ .text.puts     0x000000000800598c       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
+                0x000000000800598c                puts
+ .text.strlen   0x000000000800599c       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
+                0x000000000800599c                strlen
  .text._vfprintf_r
-                0x0000000008005518     0x1558 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
-                0x0000000008005518                _vfprintf_r
+                0x00000000080059f8     0x1558 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+                0x00000000080059f8                _vfprintf_r
  .text.__sbprintf
-                0x0000000008006a70       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+                0x0000000008006f50       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
  .text.__swsetup_r
-                0x0000000008006af8       0xcc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wsetup.o)
-                0x0000000008006af8                __swsetup_r
+                0x0000000008006fd8       0xcc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wsetup.o)
+                0x0000000008006fd8                __swsetup_r
  .text.startup.register_fini
-                0x0000000008006bc4       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x0000000008006bd8        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-atexit.o)
-                0x0000000008006bd8                atexit
- .text.quorem   0x0000000008006be4      0x124 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
- .text._dtoa_r  0x0000000008006d08      0xe30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
-                0x0000000008006d08                _dtoa_r
+                0x00000000080070a4       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x00000000080070b8        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-atexit.o)
+                0x00000000080070b8                atexit
+ .text.quorem   0x00000000080070c4      0x124 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x00000000080071e8      0xe30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+                0x00000000080071e8                _dtoa_r
  .text.__sflush_r
-                0x0000000008007b38      0x154 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
-                0x0000000008007b38                __sflush_r
+                0x0000000008008018      0x154 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
+                0x0000000008008018                __sflush_r
  .text._fflush_r
-                0x0000000008007c8c       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
-                0x0000000008007c8c                _fflush_r
- .text.std      0x0000000008007ce8       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+                0x000000000800816c       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
+                0x000000000800816c                _fflush_r
+ .text.std      0x00000000080081c8       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x0000000008007d38        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
-                0x0000000008007d38                _cleanup_r
- .text.__sinit  0x0000000008007d44       0x60 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
-                0x0000000008007d44                __sinit
+                0x0000000008008218        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+                0x0000000008008218                _cleanup_r
+ .text.__sinit  0x0000000008008224       0x60 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+                0x0000000008008224                __sinit
  .text.__sfp_lock_acquire
-                0x0000000008007da4        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
-                0x0000000008007da4                __sfp_lock_acquire
+                0x0000000008008284        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+                0x0000000008008284                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000008007db0        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
-                0x0000000008007db0                __sfp_lock_release
+                0x0000000008008290        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+                0x0000000008008290                __sfp_lock_release
  .text.__libc_fini_array
-                0x0000000008007dbc       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fini.o)
-                0x0000000008007dbc                __libc_fini_array
+                0x000000000800829c       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fini.o)
+                0x000000000800829c                __libc_fini_array
  .text._malloc_trim_r
-                0x0000000008007df0       0xa0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
-                0x0000000008007df0                _malloc_trim_r
- .text._free_r  0x0000000008007e90      0x1e8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
-                0x0000000008007e90                _free_r
+                0x00000000080082d0       0xa0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
+                0x00000000080082d0                _malloc_trim_r
+ .text._free_r  0x0000000008008370      0x1e8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
+                0x0000000008008370                _free_r
  .text.__sfvwrite_r
-                0x0000000008008078      0x2f4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fvwrite.o)
-                0x0000000008008078                __sfvwrite_r
+                0x0000000008008558      0x2f4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fvwrite.o)
+                0x0000000008008558                __sfvwrite_r
  .text._fwalk_reent
-                0x000000000800836c       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fwalk.o)
-                0x000000000800836c                _fwalk_reent
+                0x000000000800884c       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fwalk.o)
+                0x000000000800884c                _fwalk_reent
  .text._localeconv_r
-                0x00000000080083bc       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
-                0x00000000080083bc                _localeconv_r
+                0x000000000800889c       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
+                0x000000000800889c                _localeconv_r
  .text.__retarget_lock_init_recursive
-                0x00000000080083d8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x00000000080083d8                __retarget_lock_init_recursive
+                0x00000000080088b8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x00000000080088b8                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x00000000080083dc        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x00000000080083dc                __retarget_lock_close_recursive
+                0x00000000080088bc        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x00000000080088bc                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x00000000080083e0        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x00000000080083e0                __retarget_lock_acquire_recursive
+                0x00000000080088c0        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x00000000080088c0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00000000080083e4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x00000000080083e4                __retarget_lock_release_recursive
+                0x00000000080088c4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x00000000080088c4                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x00000000080083e8       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
-                0x00000000080083e8                __swhatbuf_r
+                0x00000000080088c8       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
+                0x00000000080088c8                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000008008444       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
-                0x0000000008008444                __smakebuf_r
+                0x0000000008008924       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
+                0x0000000008008924                __smakebuf_r
  .text._malloc_r
-                0x00000000080084d8      0x524 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x00000000080084d8                _malloc_r
- .text.memchr   0x00000000080089fc       0x8c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
-                0x00000000080089fc                memchr
- .text.memmove  0x0000000008008a88       0xc4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
-                0x0000000008008a88                memmove
+                0x00000000080089b8      0x524 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x00000000080089b8                _malloc_r
+ .text.memchr   0x0000000008008edc       0x8c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
+                0x0000000008008edc                memchr
+ .text.memmove  0x0000000008008f68       0xc4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
+                0x0000000008008f68                memmove
  .text.__malloc_lock
-                0x0000000008008b4c        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
-                0x0000000008008b4c                __malloc_lock
+                0x000000000800902c        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
+                0x000000000800902c                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008008b58        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
-                0x0000000008008b58                __malloc_unlock
- .text._Balloc  0x0000000008008b64       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008b64                _Balloc
- .text._Bfree   0x0000000008008bb0       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008bb0                _Bfree
+                0x0000000008009038        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
+                0x0000000008009038                __malloc_unlock
+ .text._Balloc  0x0000000008009044       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009044                _Balloc
+ .text._Bfree   0x0000000008009090       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009090                _Bfree
  .text.__multadd
-                0x0000000008008bc4       0x84 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008bc4                __multadd
+                0x00000000080090a4       0x84 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080090a4                __multadd
  .text.__hi0bits
-                0x0000000008008c48       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008c48                __hi0bits
+                0x0000000008009128       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009128                __hi0bits
  .text.__lo0bits
-                0x0000000008008c88       0x60 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008c88                __lo0bits
- .text.__i2b    0x0000000008008ce8       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008ce8                __i2b
+                0x0000000008009168       0x60 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009168                __lo0bits
+ .text.__i2b    0x00000000080091c8       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080091c8                __i2b
  .text.__multiply
-                0x0000000008008cfc      0x14c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008cfc                __multiply
+                0x00000000080091dc      0x14c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080091dc                __multiply
  .text.__pow5mult
-                0x0000000008008e48       0xa0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008e48                __pow5mult
+                0x0000000008009328       0xa0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x0000000008009328                __pow5mult
  .text.__lshift
-                0x0000000008008ee8       0xb4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008ee8                __lshift
- .text.__mcmp   0x0000000008008f9c       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008f9c                __mcmp
- .text.__mdiff  0x0000000008008fd4      0x100 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x0000000008008fd4                __mdiff
- .text.__d2b    0x00000000080090d4       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x00000000080090d4                __d2b
+                0x00000000080093c8       0xb4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080093c8                __lshift
+ .text.__mcmp   0x000000000800947c       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800947c                __mcmp
+ .text.__mdiff  0x00000000080094b4      0x100 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080094b4                __mdiff
+ .text.__d2b    0x00000000080095b4       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x00000000080095b4                __d2b
  .text._realloc_r
-                0x0000000008009184      0x374 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
-                0x0000000008009184                _realloc_r
- .text._sbrk_r  0x00000000080094f8       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
-                0x00000000080094f8                _sbrk_r
- .text.__sread  0x000000000800951c       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
-                0x000000000800951c                __sread
+                0x0000000008009664      0x374 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
+                0x0000000008009664                _realloc_r
+ .text._sbrk_r  0x00000000080099d8       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
+                0x00000000080099d8                _sbrk_r
+ .text.__sread  0x00000000080099fc       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
+                0x00000000080099fc                __sread
  .text.__swrite
-                0x0000000008009540       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
-                0x0000000008009540                __swrite
- .text.__sseek  0x000000000800957c       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
-                0x000000000800957c                __sseek
+                0x0000000008009a20       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
+                0x0000000008009a20                __swrite
+ .text.__sseek  0x0000000008009a5c       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
+                0x0000000008009a5c                __sseek
  .text.__sclose
-                0x000000000800959c        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
-                0x000000000800959c                __sclose
+                0x0000000008009a7c        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
+                0x0000000008009a7c                __sclose
  .text.__sprint_r.part.0
-                0x00000000080095a4       0x78 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
+                0x0000000008009a84       0x78 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
  .text.__sprint_r
-                0x000000000800961c       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
-                0x000000000800961c                __sprint_r
+                0x0000000008009afc       0x14 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
+                0x0000000008009afc                __sprint_r
  .text._write_r
-                0x0000000008009630       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-writer.o)
-                0x0000000008009630                _write_r
+                0x0000000008009b10       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-writer.o)
+                0x0000000008009b10                _write_r
  .text.__register_exitproc
-                0x000000000800965c       0xc0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__atexit.o)
-                0x000000000800965c                __register_exitproc
+                0x0000000008009b3c       0xc0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__atexit.o)
+                0x0000000008009b3c                __register_exitproc
  .text._calloc_r
-                0x000000000800971c       0x6c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
-                0x000000000800971c                _calloc_r
+                0x0000000008009bfc       0x6c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
+                0x0000000008009bfc                _calloc_r
  .text._close_r
-                0x0000000008009788       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-closer.o)
-                0x0000000008009788                _close_r
+                0x0000000008009c68       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-closer.o)
+                0x0000000008009c68                _close_r
  .text._fclose_r
-                0x00000000080097ac       0xd0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fclose.o)
-                0x00000000080097ac                _fclose_r
+                0x0000000008009c8c       0xd0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fclose.o)
+                0x0000000008009c8c                _fclose_r
  .text.__fputwc
-                0x000000000800987c       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
-                0x000000000800987c                __fputwc
+                0x0000000008009d5c       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
+                0x0000000008009d5c                __fputwc
  .text._fputwc_r
-                0x0000000008009910       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
-                0x0000000008009910                _fputwc_r
+                0x0000000008009df0       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
+                0x0000000008009df0                _fputwc_r
  .text._fstat_r
-                0x0000000008009974       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fstatr.o)
-                0x0000000008009974                _fstat_r
+                0x0000000008009e54       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fstatr.o)
+                0x0000000008009e54                _fstat_r
  .text._isatty_r
-                0x000000000800999c       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-isattyr.o)
-                0x000000000800999c                _isatty_r
+                0x0000000008009e7c       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-isattyr.o)
+                0x0000000008009e7c                _isatty_r
  .text.__locale_mb_cur_max
-                0x00000000080099c0       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
-                0x00000000080099c0                __locale_mb_cur_max
+                0x0000000008009ea0       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+                0x0000000008009ea0                __locale_mb_cur_max
  .text._lseek_r
-                0x00000000080099dc       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lseekr.o)
-                0x00000000080099dc                _lseek_r
+                0x0000000008009ebc       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lseekr.o)
+                0x0000000008009ebc                _lseek_r
  .text.__ascii_mbtowc
-                0x0000000008009a08       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
-                0x0000000008009a08                __ascii_mbtowc
- .text._read_r  0x0000000008009a34       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-readr.o)
-                0x0000000008009a34                _read_r
+                0x0000000008009ee8       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
+                0x0000000008009ee8                __ascii_mbtowc
+ .text._read_r  0x0000000008009f14       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-readr.o)
+                0x0000000008009f14                _read_r
  .text.__swbuf_r
-                0x0000000008009a60       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wbuf.o)
-                0x0000000008009a60                __swbuf_r
+                0x0000000008009f40       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wbuf.o)
+                0x0000000008009f40                __swbuf_r
  .text._wcrtomb_r
-                0x0000000008009b10       0x54 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wcrtomb.o)
-                0x0000000008009b10                _wcrtomb_r
+                0x0000000008009ff0       0x54 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wcrtomb.o)
+                0x0000000008009ff0                _wcrtomb_r
  .text.__ascii_wctomb
-                0x0000000008009b64       0x18 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
-                0x0000000008009b64                __ascii_wctomb
+                0x000000000800a044       0x18 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
+                0x000000000800a044                __ascii_wctomb
+ .text.asin     0x000000000800a05c       0xa4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
+                0x000000000800a05c                asin
+ .text.atan2    0x000000000800a100        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_atan2.o)
+                0x000000000800a100                atan2
+ *fill*         0x000000000800a104        0x4 
+ .text.__ieee754_asin
+                0x000000000800a108      0x474 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_asin.o)
+                0x000000000800a108                __ieee754_asin
+ *fill*         0x000000000800a57c        0x4 
+ .text.__ieee754_atan2
+                0x000000000800a580      0x1b4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_atan2.o)
+                0x000000000800a580                __ieee754_atan2
+ .text.__ieee754_sqrt
+                0x000000000800a734      0x184 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-e_sqrt.o)
+                0x000000000800a734                __ieee754_sqrt
+ .text.atan     0x000000000800a8b8      0x31c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
+                0x000000000800a8b8                atan
+ .text.fabs     0x000000000800abd4        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_fabs.o)
+                0x000000000800abd4                fabs
+ .text.matherr  0x000000000800abdc        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_matherr.o)
+                0x000000000800abdc                matherr
+ .text.nan      0x000000000800abe0        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_nan.o)
+                0x000000000800abe0                nan
  *(.glue_7)
- .glue_7        0x0000000008009b7c        0x0 linker stubs
+ .glue_7        0x000000000800abec        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008009b7c        0x0 linker stubs
+ .glue_7t       0x000000000800abec        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008009b7c        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .eh_frame      0x000000000800abec        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  *(.init)
- .init          0x0000000008009b7c        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x0000000008009b7c                _init
- .init          0x0000000008009b80        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+ .init          0x000000000800abec        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x000000000800abec                _init
+ .init          0x000000000800abf0        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
  *(.fini)
- .fini          0x0000000008009b88        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
-                0x0000000008009b88                _fini
- .fini          0x0000000008009b8c        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
-                0x0000000008009b94                . = ALIGN (0x4)
-                0x0000000008009b94                _etext = .
+ .fini          0x000000000800abf8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crti.o
+                0x000000000800abf8                _fini
+ .fini          0x000000000800abfc        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
+                0x000000000800ac04                . = ALIGN (0x4)
+                0x000000000800ac04                _etext = .
 
-.vfp11_veneer   0x0000000008009b94        0x0
- .vfp11_veneer  0x0000000008009b94        0x0 linker stubs
+.vfp11_veneer   0x000000000800ac04        0x0
+ .vfp11_veneer  0x000000000800ac04        0x0 linker stubs
 
-.v4_bx          0x0000000008009b94        0x0
- .v4_bx         0x0000000008009b94        0x0 linker stubs
+.v4_bx          0x000000000800ac04        0x0
+ .v4_bx         0x000000000800ac04        0x0 linker stubs
 
-.iplt           0x0000000008009b94        0x0
- .iplt          0x0000000008009b94        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.iplt           0x000000000800ac04        0x0
+ .iplt          0x000000000800ac04        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.rodata         0x0000000008009b98      0xfe0
-                0x0000000008009b98                . = ALIGN (0x4)
+.rodata         0x000000000800ac08     0x1028
+                0x000000000800ac08                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008009b98       0x12 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0000000008009baa        0x2 
- .rodata        0x0000000008009bac       0x4b CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+ .rodata        0x000000000800ac08       0x12 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x000000000800ac1a        0x2 
+ .rodata        0x000000000800ac1c       0x4e CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  *(.rodata*)
- *fill*         0x0000000008009bf7        0x1 
+ *fill*         0x000000000800ac6a        0x2 
  .rodata.AHBPrescTable
-                0x0000000008009bf8       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x0000000008009bf8                AHBPrescTable
+                0x000000000800ac6c       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000000000800ac6c                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008009c08        0x8 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x0000000008009c08                APBPrescTable
- .rodata.hw     0x0000000008009c10        0xc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008009c10                hw
+                0x000000000800ac7c        0x8 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000000000800ac7c                APBPrescTable
+ .rodata.hw     0x000000000800ac84        0xc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800ac84                hw
  .rodata.mpu_init.str1.4
-                0x0000000008009c1c       0x91 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- *fill*         0x0000000008009cad        0x3 
- .rodata.reg    0x0000000008009cb0       0x1b CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008009cb0                reg
- *fill*         0x0000000008009ccb        0x1 
- .rodata.test   0x0000000008009ccc       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                0x0000000008009ccc                test
+                0x000000000800ac90       0x91 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+ *fill*         0x000000000800ad21        0x3 
+ .rodata.reg    0x000000000800ad24       0x1b CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800ad24                reg
+ *fill*         0x000000000800ad3f        0x1 
+ .rodata.test   0x000000000800ad40       0x28 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                0x000000000800ad40                test
  .rodata.dmp_memory
-                0x0000000008009cf4      0xbf6 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- *fill*         0x000000000800a8ea        0x2 
+                0x000000000800ad68      0xbf6 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+ *fill*         0x000000000800b95e        0x2 
  .rodata._global_impure_ptr
-                0x000000000800a8ec        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-impure.o)
-                0x000000000800a8ec                _global_impure_ptr
+                0x000000000800b960        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-impure.o)
+                0x000000000800b960                _global_impure_ptr
  .rodata._puts_r.str1.4
-                0x000000000800a8f0       0x91 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
+                0x000000000800b964       0x91 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
                                           0x2 (size before relaxing)
  .rodata._vfprintf_r.str1.4
-                0x000000000800a8f0       0x42 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
- *fill*         0x000000000800a932        0x2 
+                0x000000000800b964       0x42 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+ *fill*         0x000000000800b9a6        0x2 
  .rodata.blanks.7291
-                0x000000000800a934       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+                0x000000000800b9a8       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
  .rodata.zeroes.7292
-                0x000000000800a944       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+                0x000000000800b9b8       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x000000000800a954       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+                0x000000000800b9c8       0x10 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
- *fill*         0x000000000800a964        0x4 
  .rodata.__mprec_bigtens
-                0x000000000800a968       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800a968                __mprec_bigtens
+                0x000000000800b9d8       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800b9d8                __mprec_bigtens
  .rodata.__mprec_tens
-                0x000000000800a990       0xc8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
-                0x000000000800a990                __mprec_tens
+                0x000000000800ba00       0xc8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800ba00                __mprec_tens
  .rodata.p05.6092
-                0x000000000800aa58        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+                0x000000000800bac8        0xc /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
  .rodata._setlocale_r.str1.4
-                0x000000000800aa64        0xa /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+                0x000000000800bad4        0xa /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
                                           0xd (size before relaxing)
- *fill*         0x000000000800aa6e        0x2 
+ *fill*         0x000000000800bade        0x2 
  .rodata.str1.4
-                0x000000000800aa70        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
-                                          0x2 (size before relaxing)
+                0x000000000800bae0        0x2 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+ *fill*         0x000000000800bae2        0x2 
  .rodata._ctype_
-                0x000000000800aa74      0x101 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-ctype_.o)
-                0x000000000800aa74                _ctype_
-                0x000000000800ab78                . = ALIGN (0x4)
- *fill*         0x000000000800ab75        0x3 
+                0x000000000800bae4      0x101 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-ctype_.o)
+                0x000000000800bae4                _ctype_
+ *fill*         0x000000000800bbe5        0x3 
+ .rodata.asin.str1.4
+                0x000000000800bbe8        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-w_asin.o)
+                                          0x9 (size before relaxing)
+ .rodata.atanhi
+                0x000000000800bbf0       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
+ .rodata.atanlo
+                0x000000000800bc10       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_atan.o)
+                0x000000000800bc30                . = ALIGN (0x4)
 
-.ARM.extab      0x000000000800ab78        0x0
-                0x000000000800ab78                . = ALIGN (0x4)
+.ARM.extab      0x000000000800bc30        0x0
+                0x000000000800bc30                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800ab78                . = ALIGN (0x4)
+                0x000000000800bc30                . = ALIGN (0x4)
 
-.ARM            0x000000000800ab78        0x8
-                0x000000000800ab78                . = ALIGN (0x4)
-                0x000000000800ab78                __exidx_start = .
+.ARM            0x000000000800bc30        0x8
+                0x000000000800bc30                . = ALIGN (0x4)
+                0x000000000800bc30                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800ab78        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
-                0x000000000800ab80                __exidx_end = .
-                0x000000000800ab80                . = ALIGN (0x4)
+ .ARM.exidx     0x000000000800bc30        0x8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+                0x000000000800bc38                __exidx_end = .
+                0x000000000800bc38                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000800ab80        0x0
- .rel.iplt      0x000000000800ab80        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+.rel.dyn        0x000000000800bc38        0x0
+ .rel.iplt      0x000000000800bc38        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
 
-.preinit_array  0x000000000800ab80        0x0
-                0x000000000800ab80                . = ALIGN (0x4)
-                0x000000000800ab80                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x000000000800bc38        0x0
+                0x000000000800bc38                . = ALIGN (0x4)
+                0x000000000800bc38                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x000000000800ab80                PROVIDE (__preinit_array_end, .)
-                0x000000000800ab80                . = ALIGN (0x4)
+                0x000000000800bc38                PROVIDE (__preinit_array_end, .)
+                0x000000000800bc38                . = ALIGN (0x4)
 
-.init_array     0x000000000800ab80        0x8
-                0x000000000800ab80                . = ALIGN (0x4)
-                0x000000000800ab80                PROVIDE (__init_array_start, .)
+.init_array     0x000000000800bc38        0x8
+                0x000000000800bc38                . = ALIGN (0x4)
+                0x000000000800bc38                PROVIDE (__init_array_start, .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x000000000800ab80        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
+                0x000000000800bc38        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x000000000800ab84        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-                0x000000000800ab88                PROVIDE (__init_array_end, .)
-                0x000000000800ab88                . = ALIGN (0x4)
+ .init_array    0x000000000800bc3c        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x000000000800bc40                PROVIDE (__init_array_end, .)
+                0x000000000800bc40                . = ALIGN (0x4)
 
-.fini_array     0x000000000800ab88        0x4
-                0x000000000800ab88                . = ALIGN (0x4)
-                0x000000000800ab88                PROVIDE (__fini_array_start, .)
+.fini_array     0x000000000800bc40        0x4
+                0x000000000800bc40                . = ALIGN (0x4)
+                0x000000000800bc40                PROVIDE (__fini_array_start, .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800ab88        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-                0x000000000800ab8c                PROVIDE (__fini_array_end, .)
-                0x000000000800ab8c                . = ALIGN (0x4)
-                0x000000000800ab8c                _sidata = LOADADDR (.data)
+ .fini_array    0x000000000800bc40        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x000000000800bc44                PROVIDE (__fini_array_end, .)
+                0x000000000800bc44                . = ALIGN (0x4)
+                0x000000000800bc44                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x9f8 load address 0x000000000800ab8c
+.data           0x0000000020000000      0x9fc load address 0x000000000800bc44
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2148,89 +2159,99 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
  .data.__global_locale
                 0x000000002000088c      0x16c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
                 0x000000002000088c                __global_locale
+ .data.__fdlib_version
+                0x00000000200009f8        0x1 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libm.a(lib_a-s_lib_ver.o)
+                0x00000000200009f8                __fdlib_version
  *(.RamFunc)
  *(.RamFunc*)
-                0x00000000200009f8                . = ALIGN (0x4)
-                0x00000000200009f8                _edata = .
+                0x00000000200009fc                . = ALIGN (0x4)
+ *fill*         0x00000000200009f9        0x3 
+                0x00000000200009fc                _edata = .
 
-.igot.plt       0x00000000200009f8        0x0 load address 0x000000000800b584
- .igot.plt      0x00000000200009f8        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
-                0x00000000200009f8                . = ALIGN (0x4)
+.igot.plt       0x00000000200009fc        0x0 load address 0x000000000800c640
+ .igot.plt      0x00000000200009fc        0x0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+                0x00000000200009fc                . = ALIGN (0x4)
 
-.bss            0x00000000200009f8      0x12c load address 0x000000000800b584
-                0x00000000200009f8                _sbss = .
-                0x00000000200009f8                __bss_start__ = _sbss
+.bss            0x00000000200009fc      0x138 load address 0x000000000800c640
+                0x00000000200009fc                _sbss = .
+                0x00000000200009fc                __bss_start__ = _sbss
  *(.bss)
- .bss           0x00000000200009f8       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
+ .bss           0x00000000200009fc       0x1c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtbegin.o
  *(.bss*)
- .bss.aacx      0x0000000020000a14        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a14                aacx
- .bss.aacy      0x0000000020000a16        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a16                aacy
- .bss.aacz      0x0000000020000a18        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a18                aacz
- .bss.gyrox     0x0000000020000a1a        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a1a                gyrox
- .bss.gyroy     0x0000000020000a1c        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a1c                gyroy
- .bss.gyroz     0x0000000020000a1e        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a1e                gyroz
+ .bss.aacx      0x0000000020000a18        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a18                aacx
+ .bss.aacy      0x0000000020000a1a        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a1a                aacy
+ .bss.aacz      0x0000000020000a1c        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a1c                aacz
+ .bss.gyrox     0x0000000020000a1e        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a1e                gyrox
+ .bss.gyroy     0x0000000020000a20        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a20                gyroy
+ .bss.gyroz     0x0000000020000a22        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a22                gyroz
+ .bss.pitch     0x0000000020000a24        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a24                pitch
+ .bss.roll      0x0000000020000a28        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a28                roll
  .bss.temperature
-                0x0000000020000a20        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                0x0000000020000a20                temperature
- *fill*         0x0000000020000a22        0x2 
+                0x0000000020000a2c        0x2 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a2c                temperature
+ *fill*         0x0000000020000a2e        0x2 
+ .bss.yaw       0x0000000020000a30        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                0x0000000020000a30                yaw
  .bss.__sbrk_heap_end
-                0x0000000020000a24        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+                0x0000000020000a34        0x4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
  .bss.hdma_usart1_tx
-                0x0000000020000a28       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
-                0x0000000020000a28                hdma_usart1_tx
- .bss.huart1    0x0000000020000a6c       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
-                0x0000000020000a6c                huart1
- .bss.uwTick    0x0000000020000ab0        0x4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000020000ab0                uwTick
- .bss.fac_us    0x0000000020000ab4        0x4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
- .bss.dmp       0x0000000020000ab8       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                0x0000000020000a38       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+                0x0000000020000a38                hdma_usart1_tx
+ .bss.huart1    0x0000000020000a7c       0x44 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+                0x0000000020000a7c                huart1
+ .bss.uwTick    0x0000000020000ac0        0x4 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000020000ac0                uwTick
+ .bss.fac_us    0x0000000020000ac4        0x4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+ .bss.dmp       0x0000000020000ac8       0x10 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .bss.__malloc_current_mallinfo
-                0x0000000020000ac8       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x0000000020000ac8                __malloc_current_mallinfo
+                0x0000000020000ad8       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x0000000020000ad8                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x0000000020000af0        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x0000000020000af0                __malloc_max_sbrked_mem
+                0x0000000020000b00        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x0000000020000b00                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x0000000020000af4        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x0000000020000af4                __malloc_max_total_mem
+                0x0000000020000b04        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x0000000020000b04                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x0000000020000af8        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
-                0x0000000020000af8                __malloc_top_pad
+                0x0000000020000b08        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+                0x0000000020000b08                __malloc_top_pad
  *(COMMON)
- COMMON         0x0000000020000afc       0x21 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
-                0x0000000020000afc                __lock___atexit_recursive_mutex
-                0x0000000020000b00                __lock___arc4random_mutex
-                0x0000000020000b04                __lock___env_recursive_mutex
-                0x0000000020000b08                __lock___sinit_recursive_mutex
-                0x0000000020000b0c                __lock___malloc_recursive_mutex
-                0x0000000020000b10                __lock___at_quick_exit_mutex
-                0x0000000020000b14                __lock___dd_hash_mutex
-                0x0000000020000b18                __lock___tz_mutex
-                0x0000000020000b1c                __lock___sfp_recursive_mutex
- *fill*         0x0000000020000b1d        0x3 
- COMMON         0x0000000020000b20        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reent.o)
-                0x0000000020000b20                errno
-                0x0000000020000b24                . = ALIGN (0x4)
-                0x0000000020000b24                _ebss = .
-                0x0000000020000b24                __bss_end__ = _ebss
+ COMMON         0x0000000020000b0c       0x21 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+                0x0000000020000b0c                __lock___atexit_recursive_mutex
+                0x0000000020000b10                __lock___arc4random_mutex
+                0x0000000020000b14                __lock___env_recursive_mutex
+                0x0000000020000b18                __lock___sinit_recursive_mutex
+                0x0000000020000b1c                __lock___malloc_recursive_mutex
+                0x0000000020000b20                __lock___at_quick_exit_mutex
+                0x0000000020000b24                __lock___dd_hash_mutex
+                0x0000000020000b28                __lock___tz_mutex
+                0x0000000020000b2c                __lock___sfp_recursive_mutex
+ *fill*         0x0000000020000b2d        0x3 
+ COMMON         0x0000000020000b30        0x4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reent.o)
+                0x0000000020000b30                errno
+                0x0000000020000b34                . = ALIGN (0x4)
+                0x0000000020000b34                _ebss = .
+                0x0000000020000b34                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000b24      0x604 load address 0x000000000800b584
-                0x0000000020000b28                . = ALIGN (0x8)
- *fill*         0x0000000020000b24        0x4 
+                0x0000000020000b34      0x604 load address 0x000000000800c640
+                0x0000000020000b38                . = ALIGN (0x8)
+ *fill*         0x0000000020000b34        0x4 
                 [!provide]                        PROVIDE (end, .)
-                0x0000000020000b28                PROVIDE (_end, .)
-                0x0000000020000d28                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000b28      0x200 
-                0x0000000020001128                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000d28      0x400 
-                0x0000000020001128                . = ALIGN (0x8)
+                0x0000000020000b38                PROVIDE (_end, .)
+                0x0000000020000d38                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000b38      0x200 
+                0x0000000020001138                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000d38      0x400 
+                0x0000000020001138                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2416,53 +2437,53 @@ LOAD /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.
                 0x0000000000000e88       0x1d /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/crtn.o
 OUTPUT(MPU6050_clion.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0xf10d
+.debug_info     0x0000000000000000     0xf213
  .debug_info    0x0000000000000000      0x3c0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_info    0x00000000000003c0      0x3ca CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
- .debug_info    0x000000000000078a      0xa21 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000000000011ab      0x2d1 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x000000000000147c      0x6bf CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000000000001b3b      0xf58 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x0000000000002a93      0x9a1 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
- .debug_info    0x0000000000003434      0x299 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00000000000036cd      0xa75 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
- .debug_info    0x0000000000004142       0x22 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_info    0x0000000000004164      0x7bc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x0000000000004920      0xcb1 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00000000000055d1      0x842 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x0000000000005e13      0x6a7 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00000000000064ba      0x9eb CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x0000000000006ea5     0x1a3b CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x00000000000088e0      0x2f4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
- .debug_info    0x0000000000008bd4     0x3343 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .debug_info    0x000000000000bf17     0x1eef CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_info    0x000000000000de06      0xd19 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_info    0x000000000000eb1f      0x5ee CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_info    0x000000000000078a      0xa7b CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x0000000000001205      0x2d1 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00000000000014d6      0x6bf CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000000000001b95      0xf58 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0000000000002aed      0x9a1 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000000000000348e      0x299 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x0000000000003727      0xa75 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+ .debug_info    0x000000000000419c       0x22 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_info    0x00000000000041be      0x7bc CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x000000000000497a      0xcb1 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x000000000000562b      0x842 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x0000000000005e6d      0x6a7 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x0000000000006514      0x9eb CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x0000000000006eff     0x1a3b CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x000000000000893a      0x2f4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+ .debug_info    0x0000000000008c2e     0x3357 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+ .debug_info    0x000000000000bf85     0x1f3a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+ .debug_info    0x000000000000debf      0xd66 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_info    0x000000000000ec25      0x5ee CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_abbrev   0x0000000000000000     0x28ab
+.debug_abbrev   0x0000000000000000     0x28d6
  .debug_abbrev  0x0000000000000000      0x13d CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_abbrev  0x000000000000013d      0x15f CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x000000000000029c      0x1ec CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x0000000000000488      0x106 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x000000000000058e      0x164 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000000000006f2      0x2a0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x0000000000000992      0x206 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x0000000000000b98      0x131 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x0000000000000cc9      0x1e0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x0000000000000ea9       0x12 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_abbrev  0x0000000000000ebb      0x1ea CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00000000000010a5      0x300 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000000000013a5      0x239 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x00000000000015de      0x1db CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00000000000017b9      0x254 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x0000000000001a0d      0x26b CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x0000000000001c78      0x165 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
- .debug_abbrev  0x0000000000001ddd      0x3a3 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .debug_abbrev  0x0000000000002180      0x318 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_abbrev  0x0000000000002498      0x240 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_abbrev  0x00000000000026d8      0x1d3 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_abbrev  0x000000000000029c      0x206 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000000000004a2      0x106 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00000000000005a8      0x164 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x000000000000070c      0x2a0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x00000000000009ac      0x206 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x0000000000000bb2      0x131 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x0000000000000ce3      0x1e0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x0000000000000ec3       0x12 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_abbrev  0x0000000000000ed5      0x1ea CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000000000010bf      0x300 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000000000013bf      0x239 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x00000000000015f8      0x1db CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000000000017d3      0x254 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000000000001a27      0x26b CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x0000000000001c92      0x165 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+ .debug_abbrev  0x0000000000001df7      0x3a3 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+ .debug_abbrev  0x000000000000219a      0x329 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+ .debug_abbrev  0x00000000000024c3      0x240 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_abbrev  0x0000000000002703      0x1d3 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_aranges  0x0000000000000000      0xae0
+.debug_aranges  0x0000000000000000      0xae8
  .debug_aranges
                 0x0000000000000000       0x20 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_aranges
@@ -2502,11 +2523,11 @@ OUTPUT(MPU6050_clion.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000908       0xf8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
  .debug_aranges
-                0x0000000000000a00       0x78 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                0x0000000000000a00       0x80 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .debug_aranges
-                0x0000000000000a78       0x68 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+                0x0000000000000a80       0x68 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_ranges   0x0000000000000000      0xa50
+.debug_ranges   0x0000000000000000      0xa58
  .debug_ranges  0x0000000000000000       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_ranges  0x0000000000000010       0x10 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
  .debug_ranges  0x0000000000000020       0x20 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
@@ -2526,74 +2547,74 @@ OUTPUT(MPU6050_clion.elf elf32-littlearm)
  .debug_ranges  0x00000000000006a8       0x20 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
  .debug_ranges  0x00000000000006c8      0x1e0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .debug_ranges  0x00000000000008a8       0xe8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_ranges  0x0000000000000990       0x68 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_ranges  0x00000000000009f8       0x58 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_ranges  0x0000000000000990       0x70 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_ranges  0x0000000000000a00       0x58 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_line     0x0000000000000000     0x6158
+.debug_line     0x0000000000000000     0x6179
  .debug_line    0x0000000000000000      0x27e CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_line    0x000000000000027e      0x285 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
- .debug_line    0x0000000000000503      0x439 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000000000000093c      0x273 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0000000000000baf      0x359 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000000000000f08      0x378 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0000000000001280      0x1b6 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000000000001436      0x2b5 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00000000000016eb      0x381 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
- .debug_line    0x0000000000001a6c       0xb6 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
- .debug_line    0x0000000000001b22      0x481 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x0000000000001fa3      0x46e CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x0000000000002411      0x638 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x0000000000002a49      0x450 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x0000000000002e99      0x5c9 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x0000000000003462      0xd99 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x00000000000041fb      0x2bd CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
- .debug_line    0x00000000000044b8      0xd55 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
- .debug_line    0x000000000000520d      0x762 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_line    0x000000000000596f      0x44a CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_line    0x0000000000005db9      0x39f CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_line    0x0000000000000503      0x437 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000000000000093a      0x273 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000000000000bad      0x359 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000000000000f06      0x378 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x000000000000127e      0x1b6 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0000000000001434      0x2b5 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00000000000016e9      0x381 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000000000001a6a       0xb6 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_line    0x0000000000001b20      0x481 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x0000000000001fa1      0x46e CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000000000000240f      0x638 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x0000000000002a47      0x450 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x0000000000002e97      0x5c9 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x0000000000003460      0xd99 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x00000000000041f9      0x2bd CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+ .debug_line    0x00000000000044b6      0xd62 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+ .debug_line    0x0000000000005218      0x766 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+ .debug_line    0x000000000000597e      0x45c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_line    0x0000000000005dda      0x39f CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_str      0x0000000000000000     0x390f
+.debug_str      0x0000000000000000     0x3922
  .debug_str     0x0000000000000000      0x5d4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
                                         0x621 (size before relaxing)
  .debug_str     0x00000000000005d4       0xd9 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
                                         0x3be (size before relaxing)
- .debug_str     0x00000000000006ad      0x638 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
-                                        0x947 (size before relaxing)
- .debug_str     0x0000000000000ce5       0x89 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00000000000006ad      0x654 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
+                                        0x963 (size before relaxing)
+ .debug_str     0x0000000000000d01       0x89 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                         0x360 (size before relaxing)
- .debug_str     0x0000000000000d6e      0x147 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0000000000000d8a      0x147 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                         0x79f (size before relaxing)
- .debug_str     0x0000000000000eb5      0x5f3 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x0000000000000ed1      0x5f3 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
                                         0x856 (size before relaxing)
- .debug_str     0x00000000000014a8       0xa4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00000000000014c4       0xa4 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
                                         0x66e (size before relaxing)
- .debug_str     0x000000000000154c       0x81 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x0000000000001568       0x81 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                         0x357 (size before relaxing)
- .debug_str     0x00000000000015cd       0xc0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
+ .debug_str     0x00000000000015e9       0xc0 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/usart.c.obj
                                         0xb03 (size before relaxing)
- .debug_str     0x000000000000168d       0x66 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
+ .debug_str     0x00000000000016a9       0x66 CMakeFiles/MPU6050_clion.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
                                          0xaa (size before relaxing)
- .debug_str     0x00000000000016f3      0x2ad CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x000000000000170f      0x2ad CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                         0x8d4 (size before relaxing)
- .debug_str     0x00000000000019a0      0x3c3 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00000000000019bc      0x3c3 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                         0x9f0 (size before relaxing)
- .debug_str     0x0000000000001d63      0x23f CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x0000000000001d7f      0x23f CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                                         0x73e (size before relaxing)
- .debug_str     0x0000000000001fa2      0x144 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000000000001fbe      0x144 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                         0x541 (size before relaxing)
- .debug_str     0x00000000000020e6      0x223 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0000000000002102      0x223 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                         0x723 (size before relaxing)
- .debug_str     0x0000000000002309      0x5f6 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x0000000000002325      0x5f6 CMakeFiles/MPU6050_clion.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                         0xdbd (size before relaxing)
- .debug_str     0x00000000000028ff       0x83 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
+ .debug_str     0x000000000000291b       0x83 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
                                         0x367 (size before relaxing)
- .debug_str     0x0000000000002982      0xa71 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
-                                       0x15ec (size before relaxing)
- .debug_str     0x00000000000033f3      0x389 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
-                                        0xfe3 (size before relaxing)
- .debug_str     0x000000000000377c      0x101 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
-                                        0x7ec (size before relaxing)
- .debug_str     0x000000000000387d       0x92 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_str     0x000000000000299e      0xa62 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
+                                       0x15f9 (size before relaxing)
+ .debug_str     0x0000000000003400      0x389 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
+                                        0xff9 (size before relaxing)
+ .debug_str     0x0000000000003789      0x107 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+                                        0x7ff (size before relaxing)
+ .debug_str     0x0000000000003890       0x92 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
                                         0x47d (size before relaxing)
 
 .comment        0x0000000000000000       0x7e
@@ -2619,7 +2640,7 @@ OUTPUT(MPU6050_clion.elf elf32-littlearm)
  .comment       0x000000000000007e       0x7f CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
  .comment       0x000000000000007e       0x7f CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
 
-.debug_frame    0x0000000000000000     0x3344
+.debug_frame    0x0000000000000000     0x335c
  .debug_frame   0x0000000000000000       0x2c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/dma.c.obj
  .debug_frame   0x000000000000002c       0x30 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/gpio.c.obj
  .debug_frame   0x000000000000005c       0x58 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/main.c.obj
@@ -2638,69 +2659,69 @@ OUTPUT(MPU6050_clion.elf elf32-littlearm)
  .debug_frame   0x000000000000107c       0x60 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
  .debug_frame   0x00000000000010dc      0x6f8 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .debug_frame   0x00000000000017d4      0x384 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_frame   0x0000000000001b58      0x15c CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_frame   0x0000000000001cb4      0x118 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
- .debug_frame   0x0000000000001dcc       0xac /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000001e78       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000001ec8       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000001eec       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000000000001f38       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x0000000000001f70       0xc8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
- .debug_frame   0x0000000000002038       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x000000000000205c       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x0000000000002080       0x44 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_ldivmod.o)
- .debug_frame   0x00000000000020c4       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00000000000020f8       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
- .debug_frame   0x0000000000002118       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-init.o)
- .debug_frame   0x0000000000002144       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
- .debug_frame   0x000000000000217c       0x78 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-printf.o)
- .debug_frame   0x00000000000021f4       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
- .debug_frame   0x0000000000002240       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
- .debug_frame   0x0000000000002260       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
- .debug_frame   0x00000000000022f4       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wsetup.o)
- .debug_frame   0x0000000000002320       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x000000000000237c       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-atexit.o)
- .debug_frame   0x000000000000239c       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
- .debug_frame   0x0000000000002424       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
- .debug_frame   0x0000000000002480      0x150 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
- .debug_frame   0x00000000000025d0       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fini.o)
- .debug_frame   0x0000000000002604       0x80 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
- .debug_frame   0x0000000000002684       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fvwrite.o)
- .debug_frame   0x00000000000026e8       0x54 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fwalk.o)
- .debug_frame   0x000000000000273c       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
- .debug_frame   0x000000000000277c       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
- .debug_frame   0x000000000000282c       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
- .debug_frame   0x0000000000002890       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
- .debug_frame   0x00000000000028dc       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000002910       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
- .debug_frame   0x0000000000002950       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
- .debug_frame   0x0000000000002980      0x264 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
- .debug_frame   0x0000000000002be4       0x58 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
- .debug_frame   0x0000000000002c3c       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000002c68       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
- .debug_frame   0x0000000000002cf0       0xd8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
- .debug_frame   0x0000000000002dc8       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-writer.o)
- .debug_frame   0x0000000000002df8       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__atexit.o)
- .debug_frame   0x0000000000002e2c       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
- .debug_frame   0x0000000000002e54       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-closer.o)
- .debug_frame   0x0000000000002e80       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fclose.o)
- .debug_frame   0x0000000000002ebc       0x9c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
- .debug_frame   0x0000000000002f58       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fstatr.o)
- .debug_frame   0x0000000000002f84       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-isattyr.o)
- .debug_frame   0x0000000000002fb0       0x6c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
- .debug_frame   0x000000000000301c       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lseekr.o)
- .debug_frame   0x000000000000304c       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
- .debug_frame   0x0000000000003098       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-readr.o)
- .debug_frame   0x00000000000030c8       0x68 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reent.o)
- .debug_frame   0x0000000000003130       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wbuf.o)
- .debug_frame   0x0000000000003170       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wcrtomb.o)
- .debug_frame   0x00000000000031d4       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
- .debug_frame   0x0000000000003210       0xc4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00000000000032d4       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00000000000032f4       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x0000000000003318       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000001b58      0x174 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_frame   0x0000000000001ccc      0x118 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_frame   0x0000000000001de4       0xac /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000001e90       0x50 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000001ee0       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000001f04       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000001f50       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000001f88       0xc8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000002050       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x0000000000002074       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x0000000000002098       0x44 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_ldivmod.o)
+ .debug_frame   0x00000000000020dc       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000002110       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-errno.o)
+ .debug_frame   0x0000000000002130       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-init.o)
+ .debug_frame   0x000000000000215c       0x38 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000002194       0x78 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-printf.o)
+ .debug_frame   0x000000000000220c       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-puts.o)
+ .debug_frame   0x0000000000002258       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-strlen-stub.o)
+ .debug_frame   0x0000000000002278       0x94 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfprintf.o)
+ .debug_frame   0x000000000000230c       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000002338       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000002394       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000000000023b4       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-dtoa.o)
+ .debug_frame   0x000000000000243c       0x5c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000002498      0x150 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000025e8       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fini.o)
+ .debug_frame   0x000000000000261c       0x80 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-freer.o)
+ .debug_frame   0x000000000000269c       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000002700       0x54 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000002754       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-localeconv.o)
+ .debug_frame   0x0000000000002794       0xb0 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lock.o)
+ .debug_frame   0x0000000000002844       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000028a8       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00000000000028f4       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000002928       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000002968       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000002998      0x264 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mprec.o)
+ .debug_frame   0x0000000000002bfc       0x58 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000002c54       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000002c80       0x88 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000002d08       0xd8 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-vfiprintf.o)
+ .debug_frame   0x0000000000002de0       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-writer.o)
+ .debug_frame   0x0000000000002e10       0x34 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000002e44       0x28 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-callocr.o)
+ .debug_frame   0x0000000000002e6c       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-closer.o)
+ .debug_frame   0x0000000000002e98       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fclose.o)
+ .debug_frame   0x0000000000002ed4       0x9c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fputwc.o)
+ .debug_frame   0x0000000000002f70       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000002f9c       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000002fc8       0x6c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-locale.o)
+ .debug_frame   0x0000000000003034       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000003064       0x4c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00000000000030b0       0x30 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-readr.o)
+ .debug_frame   0x00000000000030e0       0x68 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-reent.o)
+ .debug_frame   0x0000000000003148       0x40 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000003188       0x64 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wcrtomb.o)
+ .debug_frame   0x00000000000031ec       0x3c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libg.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000000000003228       0xc4 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00000000000032ec       0x20 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x000000000000330c       0x24 /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000003330       0x2c /home/szy/gcc-arm-none-eabi-7-2017-q4-major/bin/../lib/gcc/arm-none-eabi/7.2.1/thumb/v7-m/libgcc.a(_aeabi_uldivmod.o)
 
-.debug_loc      0x0000000000000000     0x5f2c
+.debug_loc      0x0000000000000000     0x5f58
  .debug_loc     0x0000000000000000      0x34c CMakeFiles/MPU6050_clion.elf.dir/Core/Src/syscalls.c.obj
  .debug_loc     0x000000000000034c       0x58 CMakeFiles/MPU6050_clion.elf.dir/Core/Src/sysmem.c.obj
  .debug_loc     0x00000000000003a4       0xdf CMakeFiles/MPU6050_clion.elf.dir/Core/Src/system_stm32f1xx.c.obj
@@ -2714,5 +2735,5 @@ OUTPUT(MPU6050_clion.elf elf32-littlearm)
  .debug_loc     0x00000000000036ba      0x111 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/delay.c.obj
  .debug_loc     0x00000000000037cb     0x1a89 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu.c.obj
  .debug_loc     0x0000000000005254      0x7b4 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c.obj
- .debug_loc     0x0000000000005a08      0x3d0 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
- .debug_loc     0x0000000000005dd8      0x154 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj
+ .debug_loc     0x0000000000005a08      0x3fc CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpu6050.c.obj
+ .debug_loc     0x0000000000005e04      0x154 CMakeFiles/MPU6050_clion.elf.dir/MPU6050/mpuiic.c.obj

@@ -256,10 +256,6 @@ stm32f1xx_hal_def.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
-../MPU6050/delay.h
-sys.h
-../MPU6050/sys.h
-
 ../MPU6050/eMPL/inv_mpu.h
 stm32f1xx.h
 ../MPU6050/eMPL/stm32f1xx.h
@@ -269,10 +265,6 @@ mpuiic.h
 ../MPU6050/mpuiic.h
 
 ../MPU6050/mpuiic.h
-stm32f1xx.h
-../MPU6050/stm32f1xx.h
-
-../MPU6050/sys.h
 stm32f1xx.h
 ../MPU6050/stm32f1xx.h
 
@@ -291,54 +283,4 @@ inv_mpu.h
 /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/inv_mpu.h
 mpu6050.h
 /home/szy/STM32-files/MPU6050_clion/MPU6050_clion/Core/Src/mpu6050.h
-
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.c
-stdio.h
--
-stdint.h
--
-stdlib.h
--
-string.h
--
-math.h
--
-inv_mpu.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.h
-inv_mpu_dmp_motion_driver.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.h
-mpu6050.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/mpu6050.h
-delay.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/delay.h
-usart.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/usart.h
-msp430.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/msp430.h
-msp430_i2c.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/msp430_i2c.h
-msp430_clock.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/msp430_clock.h
-msp430_interrupt.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/msp430_interrupt.h
-log.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/log.h
-twi.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/twi.h
-delay.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/delay.h
-sysclk.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/sysclk.h
-log.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/log.h
-sensors_xplained.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/sensors_xplained.h
-uc3l0_clock.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/uc3l0_clock.h
-
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu.h
-stm32f1xx.h
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/stm32f1xx.h
-
-/home/szy/STM32-files/MPU6050_clion/MPU6050_clion/MPU6050/eMPL/inv_mpu_dmp_motion_driver.h
 

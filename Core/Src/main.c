@@ -59,7 +59,7 @@ void SystemClock_Config(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 int8_t problem_init = 20;
-int8_t sendbuff[] = "/n  ";
+int8_t sendbuff[] = {0xfb};
 float pitch,roll,yaw; 		//欧拉角
 short aacx,aacy,aacz;		//加速度传感器原始数据
 short gyrox,gyroy,gyroz;	//陀螺仪原始数据
@@ -107,7 +107,8 @@ int main(void)
         HAL_Delay(200);
         //sendbuff=MPU_Read_Len(,MPU_DEVICE_ID_REG);  // check the MPU6050 ID
         }
-
+    uint8_t tmp[2];
+    unsigned short fifo_count;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -117,13 +118,28 @@ int main(void)
     /* USER CODE END WHILE */
 
       //HAL_UART_Transmit_DMA(&huart1,&sendbuff,sizeof (sendbuff));
-      while( mpu_dmp_get_data(&pitch,&roll,&yaw) != 0 ) {HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));}
-          temperature = MPU_Get_Temperature();    //得到温度值
+      //mpu_reset_fifo();
+      //HAL_Delay(5);
 
+      //if( mpu_dmp_get_data(&pitch,&roll,&yaw) == 0 ) {HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));}
+      //problem_init =mpu_dmp_get_data(&pitch,&roll,&yaw);
+      //HAL_UART_Transmit_DMA(&huart1, &problem_init, sizeof(problem_init));
 
-          //HAL_UART_Transmit_DMA(&huart1,&temperature,sizeof (temperature));
-          MPU_Get_Accelerometer(&aacx, &aacy, &aacz);    //得到加速度传感器数据
-          MPU_Get_Gyroscope(&gyrox, &gyroy, &gyroz);    //得到陀螺仪数据
+        while( mpu_dmp_get_data(&pitch,&roll,&yaw) == 0 );
+/*      MPU_Read_Fifocount(tmp);
+      fifo_count = (tmp[0] << 8) | tmp[1];
+      //HAL_UART_Transmit_DMA(&huart1, &fifo_count, sizeof(fifo_count));
+      //HAL_UART_Transmit_DMA(&huart1, &sendbuff, sizeof(sendbuff));
+      if(260<fifo_count ) {
+          if (mpu_dmp_get_data(&pitch, &roll, &yaw) != 0);
+          mpu_reset_fifo();
+          MPU_Read_Fifocount(tmp);
+          fifo_count = (tmp[0] << 8) | tmp[1];
+      }          */
+      temperature = MPU_Get_Temperature();    //得到温度值
+      //HAL_UART_Transmit_DMA(&huart1,&temperature,sizeof (temperature));
+      MPU_Get_Accelerometer(&aacx, &aacy, &aacz);    //得到加速度传感器数据
+      MPU_Get_Gyroscope(&gyrox, &gyroy, &gyroz);    //得到陀螺仪数据
 
 
     /* USER CODE BEGIN 3 */
